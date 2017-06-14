@@ -1,0 +1,752 @@
+
+-------------------SQL INSTALL------------
+
+f731ebfd4933
+f731ebfd4933
+Untagged: mysql:latest
+Untagged: mysql@sha256:2f4b1900c0ee53f344564db8d85733bd8d70b0a78cd00e6d92dc107224fc84a5
+Deleted: sha256:e799c7f9ae9cd01c2e78e26952767b96aef59a5e62f02305610448da47f8ca6b
+Deleted: sha256:58876001b0c678675f58541cbd1f514ebdaac635da49a70c2d2168b6784f7ee8
+Deleted: sha256:801e53b66e953dd4a4ea3bccce4fbdbe0fa5334065fb4c2a8e5b3a1c8e19cbc4
+Deleted: sha256:bf5392d6855851dc449c8d62abce834c3e513c2515c4472e7fcf5c4bb253e641
+Deleted: sha256:a47e14b81e4c40fa89c078dc6851aab95a1a505e6358afdba065150a53345875
+Deleted: sha256:61c7c052dda6f7b2f8d123af9d2ccec7cbe2cd95add91687bb95adb0bb3c3502
+Deleted: sha256:f441186a7f06991389303e4034c24abd131aa9a46c02a76df2f6f1d2022e93cd
+Deleted: sha256:31afe1e3e87c20e365f7d019c747f4af2463726daef5183cf8ee47f692272526
+Deleted: sha256:ba779192baede4aadd009c269406b5e8fd885c653ce19719316bf40cc66a6cf3
+Deleted: sha256:2302bd8bbdd530199aa432c357a4da9eab2621c3ba4c4dacb4ea0f4afecbcae7
+Deleted: sha256:00771f8e1e12bdfc9d47bc52a78e3f5ce5306a1caa5dd6237731cff9ca106040
+Root password = azerty
+260f303d08428d78adc1d79931100c44201568c845db18509415ac9b141df853
+
+-------------------SQL INSTALL------------
+
+260f303d0842
+260f303d0842
+Untagged: mysql:latest
+Untagged: mysql@sha256:2f4b1900c0ee53f344564db8d85733bd8d70b0a78cd00e6d92dc107224fc84a5
+Deleted: sha256:e799c7f9ae9cd01c2e78e26952767b96aef59a5e62f02305610448da47f8ca6b
+Deleted: sha256:58876001b0c678675f58541cbd1f514ebdaac635da49a70c2d2168b6784f7ee8
+Deleted: sha256:801e53b66e953dd4a4ea3bccce4fbdbe0fa5334065fb4c2a8e5b3a1c8e19cbc4
+Deleted: sha256:bf5392d6855851dc449c8d62abce834c3e513c2515c4472e7fcf5c4bb253e641
+Deleted: sha256:a47e14b81e4c40fa89c078dc6851aab95a1a505e6358afdba065150a53345875
+Deleted: sha256:61c7c052dda6f7b2f8d123af9d2ccec7cbe2cd95add91687bb95adb0bb3c3502
+Deleted: sha256:f441186a7f06991389303e4034c24abd131aa9a46c02a76df2f6f1d2022e93cd
+Deleted: sha256:31afe1e3e87c20e365f7d019c747f4af2463726daef5183cf8ee47f692272526
+Deleted: sha256:ba779192baede4aadd009c269406b5e8fd885c653ce19719316bf40cc66a6cf3
+Deleted: sha256:2302bd8bbdd530199aa432c357a4da9eab2621c3ba4c4dacb4ea0f4afecbcae7
+Deleted: sha256:00771f8e1e12bdfc9d47bc52a78e3f5ce5306a1caa5dd6237731cff9ca106040
+Root password = osef
+e30c5963cb93e847ebf88847d8b43752eb817dc814c9213b4fe430da034f2759
+
+-------------------SQL INSTALL------------
+
+e30c5963cb93
+e30c5963cb93
+Untagged: mysql:latest
+Untagged: mysql@sha256:2f4b1900c0ee53f344564db8d85733bd8d70b0a78cd00e6d92dc107224fc84a5
+Deleted: sha256:e799c7f9ae9cd01c2e78e26952767b96aef59a5e62f02305610448da47f8ca6b
+Deleted: sha256:58876001b0c678675f58541cbd1f514ebdaac635da49a70c2d2168b6784f7ee8
+Deleted: sha256:801e53b66e953dd4a4ea3bccce4fbdbe0fa5334065fb4c2a8e5b3a1c8e19cbc4
+Deleted: sha256:bf5392d6855851dc449c8d62abce834c3e513c2515c4472e7fcf5c4bb253e641
+Deleted: sha256:a47e14b81e4c40fa89c078dc6851aab95a1a505e6358afdba065150a53345875
+Deleted: sha256:61c7c052dda6f7b2f8d123af9d2ccec7cbe2cd95add91687bb95adb0bb3c3502
+Deleted: sha256:f441186a7f06991389303e4034c24abd131aa9a46c02a76df2f6f1d2022e93cd
+Deleted: sha256:31afe1e3e87c20e365f7d019c747f4af2463726daef5183cf8ee47f692272526
+Deleted: sha256:ba779192baede4aadd009c269406b5e8fd885c653ce19719316bf40cc66a6cf3
+Deleted: sha256:2302bd8bbdd530199aa432c357a4da9eab2621c3ba4c4dacb4ea0f4afecbcae7
+Deleted: sha256:00771f8e1e12bdfc9d47bc52a78e3f5ce5306a1caa5dd6237731cff9ca106040
+Root password = 147852
+f9458615adb441313de7ceb92590a85607563b1d7e8db80a40752091381d2a68
+
+------------------- Apache ------------
+
+Untagged: wordpress:latest
+Sending build context to Docker daemon 13.31 kB
+Step 1/3 : FROM httpd:latest
+ ---> e0645af13ada
+Step 2/3 : WORKDIR /usr/local/apache2/htdocs
+ ---> Using cache
+ ---> 798a6074b3fe
+Step 3/3 : EXPOSE 80
+ ---> Using cache
+ ---> b32a59577731
+Successfully built b32a59577731
+47ba9636e2b51921f52206825ea5e3646ca353f09b1ebd2b1c02b9d24951bb76
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""\ End of creation """"""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+
+
+-------------------SQL INSTALL------------
+
+f9458615adb4
+f9458615adb4
+Untagged: mysql:latest
+Untagged: mysql@sha256:2f4b1900c0ee53f344564db8d85733bd8d70b0a78cd00e6d92dc107224fc84a5
+Deleted: sha256:e799c7f9ae9cd01c2e78e26952767b96aef59a5e62f02305610448da47f8ca6b
+Deleted: sha256:58876001b0c678675f58541cbd1f514ebdaac635da49a70c2d2168b6784f7ee8
+Deleted: sha256:801e53b66e953dd4a4ea3bccce4fbdbe0fa5334065fb4c2a8e5b3a1c8e19cbc4
+Deleted: sha256:bf5392d6855851dc449c8d62abce834c3e513c2515c4472e7fcf5c4bb253e641
+Deleted: sha256:a47e14b81e4c40fa89c078dc6851aab95a1a505e6358afdba065150a53345875
+Deleted: sha256:61c7c052dda6f7b2f8d123af9d2ccec7cbe2cd95add91687bb95adb0bb3c3502
+Deleted: sha256:f441186a7f06991389303e4034c24abd131aa9a46c02a76df2f6f1d2022e93cd
+Deleted: sha256:31afe1e3e87c20e365f7d019c747f4af2463726daef5183cf8ee47f692272526
+Deleted: sha256:ba779192baede4aadd009c269406b5e8fd885c653ce19719316bf40cc66a6cf3
+Deleted: sha256:2302bd8bbdd530199aa432c357a4da9eab2621c3ba4c4dacb4ea0f4afecbcae7
+Deleted: sha256:00771f8e1e12bdfc9d47bc52a78e3f5ce5306a1caa5dd6237731cff9ca106040
+Root password = 785412
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=785412 -d mysql
+4c48f7bc667eb33358953dcd91232045d59f7ec0148a554731af4971b6c3ac12
+
+------------------- Apache ------------
+
+wordpress
+Untagged: wordpress:latest
+Sending build context to Docker daemon 15.36 kB
+Step 1/3 : FROM httpd:latest
+ ---> e0645af13ada
+Step 2/3 : WORKDIR /usr/local/apache2/htdocs
+ ---> Using cache
+ ---> 798a6074b3fe
+Step 3/3 : EXPOSE 80
+ ---> Using cache
+ ---> b32a59577731
+Successfully built b32a59577731
+docker run --name wordpress --link 4c48f7bc667e -p 4000:80 -d wordpress
+d1861ef64e85890af66c02aea147743b7335f12ef9fadc0b83493f77d13ec843
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""\ End of creation """"""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+
+
+-------------------SQL INSTALL------------
+
+4c48f7bc667e
+4c48f7bc667e
+Untagged: mysql:latest
+Untagged: mysql@sha256:2f4b1900c0ee53f344564db8d85733bd8d70b0a78cd00e6d92dc107224fc84a5
+Deleted: sha256:e799c7f9ae9cd01c2e78e26952767b96aef59a5e62f02305610448da47f8ca6b
+Deleted: sha256:58876001b0c678675f58541cbd1f514ebdaac635da49a70c2d2168b6784f7ee8
+Deleted: sha256:801e53b66e953dd4a4ea3bccce4fbdbe0fa5334065fb4c2a8e5b3a1c8e19cbc4
+Deleted: sha256:bf5392d6855851dc449c8d62abce834c3e513c2515c4472e7fcf5c4bb253e641
+Deleted: sha256:a47e14b81e4c40fa89c078dc6851aab95a1a505e6358afdba065150a53345875
+Deleted: sha256:61c7c052dda6f7b2f8d123af9d2ccec7cbe2cd95add91687bb95adb0bb3c3502
+Deleted: sha256:f441186a7f06991389303e4034c24abd131aa9a46c02a76df2f6f1d2022e93cd
+Deleted: sha256:31afe1e3e87c20e365f7d019c747f4af2463726daef5183cf8ee47f692272526
+Deleted: sha256:ba779192baede4aadd009c269406b5e8fd885c653ce19719316bf40cc66a6cf3
+Deleted: sha256:2302bd8bbdd530199aa432c357a4da9eab2621c3ba4c4dacb4ea0f4afecbcae7
+Deleted: sha256:00771f8e1e12bdfc9d47bc52a78e3f5ce5306a1caa5dd6237731cff9ca106040
+Root password = 0000
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=0000 -d mysql
+ef71de8a4613f6568c045214a28dc92ec2954f6c8c4c5d20ef5450ab25c13675
+
+------------------- Apache ------------
+
+wordpress
+Untagged: wordpress:latest
+Sending build context to Docker daemon 17.92 kB
+Step 1/3 : FROM httpd:latest
+ ---> e0645af13ada
+Step 2/3 : WORKDIR /usr/local/apache2/htdocs
+ ---> Using cache
+ ---> 798a6074b3fe
+Step 3/3 : EXPOSE 80
+ ---> Using cache
+ ---> b32a59577731
+Successfully built b32a59577731
+docker run --name wordpress --link ef71de8a4613 -p 4000:80 -d wordpress
+4fc9842c5b7e637aec7951a5459cab6e8401a200c46d750c0178e5a43664e419
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""\ End of creation """"""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+
+
+-------------------SQL INSTALL------------
+
+ef71de8a4613
+ef71de8a4613
+Untagged: mysql:latest
+Untagged: mysql@sha256:2f4b1900c0ee53f344564db8d85733bd8d70b0a78cd00e6d92dc107224fc84a5
+Deleted: sha256:e799c7f9ae9cd01c2e78e26952767b96aef59a5e62f02305610448da47f8ca6b
+Deleted: sha256:58876001b0c678675f58541cbd1f514ebdaac635da49a70c2d2168b6784f7ee8
+Deleted: sha256:801e53b66e953dd4a4ea3bccce4fbdbe0fa5334065fb4c2a8e5b3a1c8e19cbc4
+Deleted: sha256:bf5392d6855851dc449c8d62abce834c3e513c2515c4472e7fcf5c4bb253e641
+Deleted: sha256:a47e14b81e4c40fa89c078dc6851aab95a1a505e6358afdba065150a53345875
+Deleted: sha256:61c7c052dda6f7b2f8d123af9d2ccec7cbe2cd95add91687bb95adb0bb3c3502
+Deleted: sha256:f441186a7f06991389303e4034c24abd131aa9a46c02a76df2f6f1d2022e93cd
+Deleted: sha256:31afe1e3e87c20e365f7d019c747f4af2463726daef5183cf8ee47f692272526
+Deleted: sha256:ba779192baede4aadd009c269406b5e8fd885c653ce19719316bf40cc66a6cf3
+Deleted: sha256:2302bd8bbdd530199aa432c357a4da9eab2621c3ba4c4dacb4ea0f4afecbcae7
+Deleted: sha256:00771f8e1e12bdfc9d47bc52a78e3f5ce5306a1caa5dd6237731cff9ca106040
+Root password = 0000
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=0000 -d mysql
+4b1a55f90670b4750fe2fe23b85a48737415e8769f9eb14681319a672a34526b
+
+------------------- Apache ------------
+
+wordpress
+Untagged: wordpress:latest
+Sending build context to Docker daemon 19.97 kB
+Step 1/3 : FROM httpd:latest
+ ---> e0645af13ada
+Step 2/3 : WORKDIR /usr/local/apache2/htdocs
+ ---> Using cache
+ ---> 798a6074b3fe
+Step 3/3 : EXPOSE 80
+ ---> Using cache
+ ---> b32a59577731
+Successfully built b32a59577731
+docker run --name wordpress --link 4b1a55f90670 -p 4000:80 -d wordpress
+f37abfbd474a87688da8e185c8c10c62559363ee6e1131451158c36087790864
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""\ End of creation """"""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+
+
+-------------------SQL INSTALL------------
+
+4b1a55f90670
+4b1a55f90670
+Untagged: mysql:latest
+Untagged: mysql@sha256:2f4b1900c0ee53f344564db8d85733bd8d70b0a78cd00e6d92dc107224fc84a5
+Deleted: sha256:e799c7f9ae9cd01c2e78e26952767b96aef59a5e62f02305610448da47f8ca6b
+Deleted: sha256:58876001b0c678675f58541cbd1f514ebdaac635da49a70c2d2168b6784f7ee8
+Deleted: sha256:801e53b66e953dd4a4ea3bccce4fbdbe0fa5334065fb4c2a8e5b3a1c8e19cbc4
+Deleted: sha256:bf5392d6855851dc449c8d62abce834c3e513c2515c4472e7fcf5c4bb253e641
+Deleted: sha256:a47e14b81e4c40fa89c078dc6851aab95a1a505e6358afdba065150a53345875
+Deleted: sha256:61c7c052dda6f7b2f8d123af9d2ccec7cbe2cd95add91687bb95adb0bb3c3502
+Deleted: sha256:f441186a7f06991389303e4034c24abd131aa9a46c02a76df2f6f1d2022e93cd
+Deleted: sha256:31afe1e3e87c20e365f7d019c747f4af2463726daef5183cf8ee47f692272526
+Deleted: sha256:ba779192baede4aadd009c269406b5e8fd885c653ce19719316bf40cc66a6cf3
+Deleted: sha256:2302bd8bbdd530199aa432c357a4da9eab2621c3ba4c4dacb4ea0f4afecbcae7
+Deleted: sha256:00771f8e1e12bdfc9d47bc52a78e3f5ce5306a1caa5dd6237731cff9ca106040
+Root password = 0000
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=0000 -d mysql
+6aca9694a1a6516454ff1518def7366a55c5b9912be70423a251d635a4354e47
+
+------------------- Apache ------------
+
+wordpress
+Untagged: wordpress:latest
+Sending build context to Docker daemon 26.11 kB
+Step 1/3 : FROM httpd:latest
+ ---> e0645af13ada
+Step 2/3 : WORKDIR /usr/local/apache2/htdocs
+ ---> Using cache
+ ---> 798a6074b3fe
+Step 3/3 : EXPOSE 80
+ ---> Using cache
+ ---> b32a59577731
+Successfully built b32a59577731
+docker run --name wordpress --link 4b1a55f90670 -p 4000:80 -d wordpress
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""\ End of creation """"""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+
+
+-------------------SQL INSTALL------------
+
+6aca9694a1a6
+6aca9694a1a6
+Untagged: mysql:latest
+Untagged: mysql@sha256:2f4b1900c0ee53f344564db8d85733bd8d70b0a78cd00e6d92dc107224fc84a5
+Deleted: sha256:e799c7f9ae9cd01c2e78e26952767b96aef59a5e62f02305610448da47f8ca6b
+Deleted: sha256:58876001b0c678675f58541cbd1f514ebdaac635da49a70c2d2168b6784f7ee8
+Deleted: sha256:801e53b66e953dd4a4ea3bccce4fbdbe0fa5334065fb4c2a8e5b3a1c8e19cbc4
+Deleted: sha256:bf5392d6855851dc449c8d62abce834c3e513c2515c4472e7fcf5c4bb253e641
+Deleted: sha256:a47e14b81e4c40fa89c078dc6851aab95a1a505e6358afdba065150a53345875
+Deleted: sha256:61c7c052dda6f7b2f8d123af9d2ccec7cbe2cd95add91687bb95adb0bb3c3502
+Deleted: sha256:f441186a7f06991389303e4034c24abd131aa9a46c02a76df2f6f1d2022e93cd
+Deleted: sha256:31afe1e3e87c20e365f7d019c747f4af2463726daef5183cf8ee47f692272526
+Deleted: sha256:ba779192baede4aadd009c269406b5e8fd885c653ce19719316bf40cc66a6cf3
+Deleted: sha256:2302bd8bbdd530199aa432c357a4da9eab2621c3ba4c4dacb4ea0f4afecbcae7
+Deleted: sha256:00771f8e1e12bdfc9d47bc52a78e3f5ce5306a1caa5dd6237731cff9ca106040
+Root password = 0000
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=0000 -d mysql
+b231a726ce5b064c23ed5ecb68ec82086851a69809a7dc3265cbd8c209a73307
+
+------------------- Apache ------------
+
+Untagged: wordpress:latest
+Sending build context to Docker daemon 28.67 kB
+Step 1/3 : FROM httpd:latest
+ ---> e0645af13ada
+Step 2/3 : WORKDIR /usr/local/apache2/htdocs
+ ---> Using cache
+ ---> 798a6074b3fe
+Step 3/3 : EXPOSE 80
+ ---> Using cache
+ ---> b32a59577731
+Successfully built b32a59577731
+docker run --name wordpress --link b231a726ce5b -p 4000:80 -d wordpress
+e637c7f4ea2dfb4a764213367611e44a8723ecde6e2ad71066e03f1030036f29
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""\ End of creation """"""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+
+
+-------------------SQL INSTALL------------
+
+b231a726ce5b
+b231a726ce5b
+Untagged: mysql:latest
+Untagged: mysql@sha256:2f4b1900c0ee53f344564db8d85733bd8d70b0a78cd00e6d92dc107224fc84a5
+Deleted: sha256:e799c7f9ae9cd01c2e78e26952767b96aef59a5e62f02305610448da47f8ca6b
+Deleted: sha256:58876001b0c678675f58541cbd1f514ebdaac635da49a70c2d2168b6784f7ee8
+Deleted: sha256:801e53b66e953dd4a4ea3bccce4fbdbe0fa5334065fb4c2a8e5b3a1c8e19cbc4
+Deleted: sha256:bf5392d6855851dc449c8d62abce834c3e513c2515c4472e7fcf5c4bb253e641
+Deleted: sha256:a47e14b81e4c40fa89c078dc6851aab95a1a505e6358afdba065150a53345875
+Deleted: sha256:61c7c052dda6f7b2f8d123af9d2ccec7cbe2cd95add91687bb95adb0bb3c3502
+Deleted: sha256:f441186a7f06991389303e4034c24abd131aa9a46c02a76df2f6f1d2022e93cd
+Deleted: sha256:31afe1e3e87c20e365f7d019c747f4af2463726daef5183cf8ee47f692272526
+Deleted: sha256:ba779192baede4aadd009c269406b5e8fd885c653ce19719316bf40cc66a6cf3
+Deleted: sha256:2302bd8bbdd530199aa432c357a4da9eab2621c3ba4c4dacb4ea0f4afecbcae7
+Deleted: sha256:00771f8e1e12bdfc9d47bc52a78e3f5ce5306a1caa5dd6237731cff9ca106040
+Root password = 00000
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=00000 -d mysql
+8669f104e8949f098c8ad6d28cc97d4d6a32391e2254772938412925d52a5461
+
+------------------- Apache ------------
+
+wordpress
+Untagged: wordpress:latest
+Sending build context to Docker daemon 30.72 kB
+Step 1/3 : FROM httpd:latest
+ ---> e0645af13ada
+Step 2/3 : WORKDIR /usr/local/apache2/htdocs
+ ---> Using cache
+ ---> 798a6074b3fe
+Step 3/3 : EXPOSE 80
+ ---> Using cache
+ ---> b32a59577731
+Successfully built b32a59577731
+docker run --name wordpress --link 8669f104e894 -p 4000:80 -d wordpress
+cdd8bc0799b9f21ece2aaf35de07050bfd297337701ce7212a72aa3442c5f030
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""\ End of creation """"""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+
+
+-------------------SQL INSTALL------------
+
+8669f104e894
+8669f104e894
+
+-------------------SQL INSTALL------------
+
+Root password = 0000
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=0000 -d mysql
+c94762a88f4d524db1e29c1d7828fb7dc1ace5e11764c920be0eecce94d9e605
+
+------------------- Apache ------------
+
+wordpress
+Untagged: wordpress:latest
+Sending build context to Docker daemon 31.74 kB
+Step 1/3 : FROM httpd:latest
+ ---> e0645af13ada
+Step 2/3 : WORKDIR /usr/local/apache2/htdocs
+ ---> Using cache
+ ---> 798a6074b3fe
+Step 3/3 : EXPOSE 80
+ ---> Using cache
+ ---> b32a59577731
+Successfully built b32a59577731
+docker run --name wordpress --link c94762a88f4d -p 4000:80 -d wordpress
+d4a1e5b1804eb110e573d9ccc3bf562e8755c37fec64362c82408b3071552838
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""\ End of creation """"""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+
+
+-------------------SQL INSTALL------------
+
+c94762a88f4d
+c94762a88f4d
+Root password = 0000
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=0000 -d mysql
+0dd2427138c15d0c747b6e7882ad8866528851c49d9e4d4c8b02a6f50e177318
+
+------------------- Apache ------------
+
+wordpress
+Untagged: wordpress:latest
+Sending build context to Docker daemon 32.26 kB
+Step 1/3 : FROM httpd:latest
+ ---> e0645af13ada
+Step 2/3 : WORKDIR /usr/local/apache2/htdocs
+ ---> Using cache
+ ---> 798a6074b3fe
+Step 3/3 : EXPOSE 80
+ ---> Using cache
+ ---> b32a59577731
+Successfully built b32a59577731
+docker run --name wordpress --link 0dd2427138c1 -p 4000:80 -d wordpress
+9171bd16f15baa07698f36bddaac222d6718c579491abd57b8e0b99e96417440
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""\ End of creation """"""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+
+
+-------------------SQL INSTALL------------
+
+0dd2427138c1
+0dd2427138c1
+Root password = 0000
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=0000 -d mysql
+62f48f5e8c3e4a46eafa03c6bb665a5964894ae5af5e0729f78a796b73e9c265
+
+------------------- Apache ------------
+
+wordpress
+Untagged: wordpress:latest
+Sending build context to Docker daemon 33.28 kB
+Step 1/3 : FROM httpd:latest
+ ---> e0645af13ada
+Step 2/3 : WORKDIR /usr/local/apache2/htdocs
+ ---> Using cache
+ ---> 798a6074b3fe
+Step 3/3 : EXPOSE 80
+ ---> Using cache
+ ---> b32a59577731
+Successfully built b32a59577731
+docker run --name wordpress --link 62f48f5e8c3e -p 4000:80 -d wordpress
+420c050a4dba457898be63a3c1a9581c13270a20af2f1f35333541eb10cf4956
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""\ End of creation """"""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+
+
+-------------------SQL INSTALL------------
+
+62f48f5e8c3e
+62f48f5e8c3e
+Root password = 0000
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=0000 -d mysql
+d991583343e8a13363b0cfb223385168f52945689638817b86499c8d9d835057
+
+------------------- Apache ------------
+
+wordpress
+Untagged: wordpress:latest
+Sending build context to Docker daemon 33.28 kB
+Step 1/3 : FROM httpd:latest
+ ---> e0645af13ada
+Step 2/3 : WORKDIR /usr/local/apache2/htdocs
+ ---> Using cache
+ ---> 798a6074b3fe
+Step 3/3 : EXPOSE 80
+ ---> Using cache
+ ---> b32a59577731
+Successfully built b32a59577731
+docker run --name wordpress --link d991583343e8 -p 4000:80 -d wordpress
+c5a6cd5435791b48dc3d0af18b900727595c18d3ec82587a0c990a86c235d45f
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""\ End of creation """"""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+
+
+-------------------SQL INSTALL------------
+
+d991583343e8
+d991583343e8
+Root password = 0000
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=0000 -d mysql
+034d66de471a8e6dd33f946b9ff98c1d862a00a5601bf212584023101b7a7240
+
+------------------- Apache ------------
+
+wordpress
+Untagged: wordpress:latest
+Sending build context to Docker daemon  34.3 kB
+Step 1/3 : FROM httpd:latest
+ ---> e0645af13ada
+Step 2/3 : WORKDIR /usr/local/apache2/htdocs
+ ---> Using cache
+ ---> 798a6074b3fe
+Step 3/3 : EXPOSE 80
+ ---> Using cache
+ ---> b32a59577731
+Successfully built b32a59577731
+docker run --name wordpress --link 034d66de471a -p 4000:80 -d wordpress
+f81e65aaaaae6e18835a78bbb231495fb31f2107d44fe665c765d1c52f8b3676
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""\ End of creation """"""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+
+
+-------------------SQL INSTALL------------
+
+034d66de471a
+034d66de471a
+Root password = 0000
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=0000 -d mysql
+acee7a3e9c7a222706169780f6c1ff12aca2ca5e177e7a54ec05ba87f91a6f1a
+
+------------------- Apache ------------
+
+wordpress
+Untagged: wordpress:latest
+Sending build context to Docker daemon 35.33 kB
+Step 1/4 : FROM httpd:latest
+ ---> e0645af13ada
+Step 2/4 : WORKDIR /usr/local/apache2/htdocs
+ ---> Using cache
+ ---> 798a6074b3fe
+Step 3/4 : EXPOSE 80
+ ---> Using cache
+ ---> b32a59577731
+Step 4/4 : RUN install_wp.sh
+ ---> Running in 9d96e4bf891e
+[91m/bin/sh: 1: install_wp.sh: not found
+[0mdocker run --name wordpress --link acee7a3e9c7a -p 4000:80 -d wordpress
+b42d5c2519b9aa2d1323852f179b3613a05ad4eecc95d44d859a739400d5ef48
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""\ End of creation """"""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+
+
+-------------------SQL INSTALL------------
+
+acee7a3e9c7a
+acee7a3e9c7a
+Root password = 0000
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=0000 -d mysql
+8d35c5bf0f759c7ef3402931082c267ee6f4b6b3eae2da10ae84cae01c62846c
+
+------------------- Apache ------------
+
+wordpress
+Untagged: wordpress:latest
+Untagged: wordpress@sha256:b42ece3b23559e6021757e29195090ae727c4849848b01c997ac5cbbb7c27848
+Deleted: sha256:c8fc64de4cb3989207b05de18bd4eb5e711c760842d12add99134da1778c2630
+Deleted: sha256:c6a66502127f81189701a23cdac3a712d08d4c3b995779667ff2e5f020f49383
+Deleted: sha256:32bb3d774a7f4739a8d10bdb7b8448a1e291f5784b0885d9a138a2abf1c66d2d
+Deleted: sha256:dbbca701f9176540082e091ef8ce34f2f34061dbbec77cd6e79b2f4189c04af6
+Deleted: sha256:25481d79a5a8c7fe3324d5ad06c4ac8098787e9442ca5a8d73007889b599fe8f
+Deleted: sha256:7c88b4286572394481824470c896f2c33091306b8b5418f57348b77a0af4aec6
+Deleted: sha256:f52de668ef6d34efd6558de34ba5ade04c9a71daf88b598796cdf637aeacd7ce
+Deleted: sha256:7c70ccf2b92a6f9d99ac38d2086130cf5d1236f5ace7480fb4c462cac32e4112
+Deleted: sha256:29635cca4012d3cc36dd4944dd283ba6ccebdf5a2a4ce2b2338b8e078fb11c58
+Deleted: sha256:eca994c7a2d12ed777b51682790d324a92809ab7112dc2468c1c43d59420020c
+Deleted: sha256:d503e9a49da8d6fdcbf7ae1c7e16497ec22c119ded50c5d14617f85cbb0c974e
+Deleted: sha256:47d71739f522cd564b17cd850936e4daba78c598837fe5c3d672805ad7408879
+Deleted: sha256:152274fcd730de06d69d219c5dea4b0e5c87184b11f73ade7d2028b4acf5279f
+Deleted: sha256:84dd07efddd30b1b4e3dc622d8cc29a06f4d95c07a6f6ff44cc7543405386372
+Deleted: sha256:403fbf524d414528a5b2c5aae03691dc2ccbe24d7434b90f3b37007043e50c5f
+Deleted: sha256:f6dac630e8435b054454c78dbb96113a9a00f0ff83ce2c9a5aa4bcd6e64bfecd
+Deleted: sha256:2fe6ad947f0b6c77591048cd000589f50bc4b20e514ace39c3a4f8bb649c640d
+Deleted: sha256:c239945e600227758fb157deaca9ce7c92784e5fd60b400aff1ef6a797343c58
+Deleted: sha256:007ab444b234be691d8dafd51839b7713324a261b16e2487bf4a3f989ded912d
+Sending build context to Docker daemon 37.89 kB
+Step 1/4 : FROM httpd:latest
+ ---> e0645af13ada
+Step 2/4 : WORKDIR /usr/local/apache2/htdocs
+ ---> Using cache
+ ---> 798a6074b3fe
+Step 3/4 : EXPOSE 80
+ ---> Using cache
+ ---> b32a59577731
+Step 4/4 : RUN ./install_wp.sh
+ ---> Running in 240f75d123b1
+[91m/bin/sh: 1: ./install_wp.sh: not found
+[0mdocker run --name wordpress --link 8d35c5bf0f75 -p 4000:80 -d wordpress
+
+-------------------SQL INSTALL------------
+
+8d35c5bf0f75
+8d35c5bf0f75
+Root password = 0000
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=0000 -d mysql
+ca3acfcec21b0a0b43e755ab2ebbc649b7b53161e3b418728ae038cc16fa500f
+
+------------------- Apache ------------
+
+Sending build context to Docker daemon  38.4 kB
+Step 1/4 : FROM httpd:latest
+ ---> e0645af13ada
+Step 2/4 : WORKDIR /usr/local/apache2/htdocs
+ ---> Using cache
+ ---> 798a6074b3fe
+Step 3/4 : EXPOSE 80
+ ---> Using cache
+ ---> b32a59577731
+Step 4/4 : CMD ./install_wp.sh
+ ---> Running in 4247931e3c21
+ ---> 5f1059f0f9e9
+Removing intermediate container 4247931e3c21
+Successfully built 5f1059f0f9e9
+docker run --name wordpress --link ca3acfcec21b -p 4000:80 -d wordpress
+99319f6c5f81190b67a8691365dbb15b30518bd26675470b7ab2724c0df57e67
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""\ End of creation """"""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+
+
+-------------------SQL INSTALL------------
+
+ca3acfcec21b
+ca3acfcec21b
+Root password = 0000
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=0000 -d mysql
+301afd23d6ab122c0a6cbefa3836ee6eb262e893c693da603223dcf98ec77b54
+
+------------------- Apache ------------
+
+wordpress
+Untagged: wordpress:latest
+Deleted: sha256:5f1059f0f9e9cc31ff972758ffc37d5801f5d36778252f934f3317ab62c65a3a
+Sending build context to Docker daemon 39.42 kB
+Step 1/4 : FROM httpd:latest
+ ---> e0645af13ada
+Step 2/4 : WORKDIR /usr/local/apache2/htdocs
+ ---> Using cache
+ ---> 798a6074b3fe
+Step 3/4 : EXPOSE 80
+ ---> Using cache
+ ---> b32a59577731
+Step 4/4 : CMD ./install_wp.sh
+ ---> Running in 2d210e71b2fb
+ ---> 073071d778a1
+Removing intermediate container 2d210e71b2fb
+Successfully built 073071d778a1
+docker run --name wordpress --link 301afd23d6ab -p 4000:80 -d wordpress
+6a2a6829b523ed44893a49f5c5409f324202cb318586215260e55c00f1640d10
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""\ End of creation """"""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+
+
+-------------------SQL INSTALL------------
+
+301afd23d6ab
+301afd23d6ab
+Root password = 0000
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=0000 -d mysql
+665a65783ccee02648952bf7a7122353d93c1661d20eca2a1bd8b4823f394973
+
+------------------- Apache ------------
+
+wordpress
+Untagged: wordpress:latest
+Deleted: sha256:073071d778a15c8887c5fe1f14f88052082a70438cbdd3509dadc0dac1e8eae2
+Sending build context to Docker daemon 40.96 kB
+Step 1/3 : FROM httpd:latest
+ ---> e0645af13ada
+Step 2/3 : WORKDIR /usr/local/apache2/htdocs
+ ---> Using cache
+ ---> 798a6074b3fe
+Step 3/3 : EXPOSE 80
+ ---> Using cache
+ ---> b32a59577731
+Successfully built b32a59577731
+docker run --name wordpress --link 665a65783cce -p 4000:80 -d wordpress
+afc350d758b39335bca3409883eb6a62830a8c15b39c294c4fd0adcdfc6c1927
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""\ End of creation """"""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+
+
+-------------------SQL INSTALL------------
+
+665a65783cce
+665a65783cce
+Root password = 0000
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=0000 -d mysql
+18549bba66279f4e35be06f4d3066766150d110bd878810519162273dffab110
+
+------------------- Apache ------------
+
+wordpress
+Untagged: wordpress:latest
+Sending build context to Docker daemon 41.47 kB
+Step 1/4 : FROM httpd:latest
+ ---> e0645af13ada
+Step 2/4 : WORKDIR /usr/local/apache2/htdocs
+ ---> Using cache
+ ---> 798a6074b3fe
+Step 3/4 : EXPOSE 80
+ ---> Using cache
+ ---> b32a59577731
+Step 4/4 : ENTRYPOINT /bin/bash ./install_wp.sh
+ ---> Running in 636203aba88b
+ ---> 10a62bc5a1eb
+Removing intermediate container 636203aba88b
+Successfully built 10a62bc5a1eb
+docker run --name wordpress --link 18549bba6627 -p 4000:80 -d wordpress
+0b2f85a7fb283512eb3c4b14e671241d0d07b2c3dc27d7539932a142fd39de1f
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""\ End of creation """"""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+
+
+-------------------SQL INSTALL------------
+
+18549bba6627
+18549bba6627
+Root password = 0000
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=0000 -d mysql
+d5132fa43e8ae86c9feb570e1c233b0241957fe71cb967444689e6b0b3ae062c
+
+------------------- Apache ------------
+
+wordpress
+Untagged: wordpress:latest
+Deleted: sha256:10a62bc5a1eba05593a615b17342252769bb727bd7ad4b43c785773231c346d3
+Sending build context to Docker daemon 43.01 kB
+Step 1/4 : FROM httpd:latest
+ ---> e0645af13ada
+Step 2/4 : WORKDIR /usr/local/apache2/htdocs
+ ---> Using cache
+ ---> 798a6074b3fe
+Step 3/4 : EXPOSE 80
+ ---> Using cache
+ ---> b32a59577731
+Step 4/4 : ENTRYPOINT /bin/echo Hello
+ ---> Running in 4500eec1ca6b
+ ---> 53809afa1d5b
+Removing intermediate container 4500eec1ca6b
+Successfully built 53809afa1d5b
+docker run --name wordpress --link d5132fa43e8a -p 4000:80 -d wordpress
+9cfb3f5fb4f3d74b2684168170d8fe49beb58a4a70f11c2b1ec531a7728d3664
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""\ End of creation """"""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+
