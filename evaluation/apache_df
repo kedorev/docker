@@ -1,5 +1,5 @@
 #Indique la source du repo
-FROM httpd:latest
+FROM adminer
 
 #Equivalent a www dans la vagrant / 
 WORKDIR /usr/local/apache2/htdocs

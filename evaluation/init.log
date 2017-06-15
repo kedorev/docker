@@ -1324,3 +1324,802 @@ Unpacking python-pyinotify (0.9.4-1build1) ...
 Selecting previously unselected package whois.
 Preparing to unpack .../archives/whois_5.1.1_amd64.deb ...
 Unpacking whois (5.1.1) ...
+Processing triggers for ureadahead (0.100.0-16) ...
+Setting up fail2ban (0.8.11-1) ...
+[91minvoke-rc.d: policy-rc.d denied execution of start.
+[0mSetting up python-pyinotify (0.9.4-1build1) ...
+Setting up whois (5.1.1) ...
+Processing triggers for ureadahead (0.100.0-16) ...
+[32mInstallation rkhunter...[0m
+[91mdebconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+[0m[91mdebconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+[0m[91mdpkg-preconfigure: unable to re-open stdin: 
+[0mSelecting previously unselected package libyaml-0-2:amd64.
+(Reading database ... 17531 files and directories currently installed.)
+Preparing to unpack .../libyaml-0-2_0.1.4-3ubuntu3.1_amd64.deb ...
+Unpacking libyaml-0-2:amd64 (0.1.4-3ubuntu3.1) ...
+Selecting previously unselected package binutils.
+Preparing to unpack .../binutils_2.24-5ubuntu14.2_amd64.deb ...
+Unpacking binutils (2.24-5ubuntu14.2) ...
+Selecting previously unselected package rkhunter.
+Preparing to unpack .../rkhunter_1.4.0-3_all.deb ...
+Unpacking rkhunter (1.4.0-3) ...
+Selecting previously unselected package lsof.
+Preparing to unpack .../lsof_4.86+dfsg-1ubuntu2_amd64.deb ...
+Unpacking lsof (4.86+dfsg-1ubuntu2) ...
+Selecting previously unselected package iproute.
+Preparing to unpack .../iproute_1%3a3.12.0-2ubuntu1_all.deb ...
+Unpacking iproute (1:3.12.0-2ubuntu1) ...
+Selecting previously unselected package ruby.
+Preparing to unpack .../ruby_1%3a1.9.3.4_all.deb ...
+Unpacking ruby (1:1.9.3.4) ...
+Selecting previously unselected package ruby1.9.1.
+Preparing to unpack .../ruby1.9.1_1.9.3.484-2ubuntu1.2_amd64.deb ...
+Unpacking ruby1.9.1 (1.9.3.484-2ubuntu1.2) ...
+Selecting previously unselected package libruby1.9.1.
+Preparing to unpack .../libruby1.9.1_1.9.3.484-2ubuntu1.2_amd64.deb ...
+Unpacking libruby1.9.1 (1.9.3.484-2ubuntu1.2) ...
+Selecting previously unselected package unhide.rb.
+Preparing to unpack .../unhide.rb_22-1_all.deb ...
+Unpacking unhide.rb (22-1) ...
+Setting up libyaml-0-2:amd64 (0.1.4-3ubuntu3.1) ...
+Setting up binutils (2.24-5ubuntu14.2) ...
+Setting up rkhunter (1.4.0-3) ...
+[91mdebconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+[0m[91mdebconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+[0m[91m
+Creating config file /etc/default/rkhunter with new version
+[0m[91m[ Rootkit Hunter version 1.4.0 ]
+[0m[91mFile created: searched for 167 files, found 127
+[0mSetting up lsof (4.86+dfsg-1ubuntu2) ...
+Setting up iproute (1:3.12.0-2ubuntu1) ...
+Setting up ruby (1:1.9.3.4) ...
+Setting up ruby1.9.1 (1.9.3.484-2ubuntu1.2) ...
+Setting up libruby1.9.1 (1.9.3.484-2ubuntu1.2) ...
+Setting up unhide.rb (22-1) ...
+Processing triggers for libc-bin (2.19-0ubuntu6.7) ...
+Processing triggers for rkhunter (1.4.0-3) ...
+[91mdebconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+[0m[91mdebconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+[0m[91m[ Rootkit Hunter version 1.4.0 ]
+[0m[91mFile updated: searched for 167 files, found 127
+[0m[32mInstallation chkrootkit...[0m
+[91mdebconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+[0m[91mdebconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+[0m[91mdpkg-preconfigure: unable to re-open stdin: 
+[0mSelecting previously unselected package chkrootkit.
+(Reading database ... 18694 files and directories currently installed.)
+Preparing to unpack .../chkrootkit_0.49-4.1ubuntu1.14.04.1_amd64.deb ...
+Unpacking chkrootkit (0.49-4.1ubuntu1.14.04.1) ...
+Setting up chkrootkit (0.49-4.1ubuntu1.14.04.1) ...
+[91mdebconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+[0m[91mdebconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+[0m ---> 85f67dab565c
+Removing intermediate container c63a56381eb8
+Successfully built 85f67dab565c
+docker run -d --name rancher --restart=unless-stopped -p 9090:8080 rancher
+170615 15:20:24 [Note] /usr/sbin/mysqld (mysqld 5.5.55-0ubuntu0.14.04.1) starting as process 27 ...
+Uptime: 2  Threads: 1  Questions: 2  Slow queries: 0  Opens: 33  Flush tables: 1  Open tables: 26  Queries per second avg: 1.000
+Setting up database
+Importing schema
+CATTLE_AGENT_PACKAGE_HOST_API_URL=/usr/share/cattle/artifacts/host-api.tar.gz
+CATTLE_AGENT_PACKAGE_PYTHON_AGENT_URL=/usr/share/cattle/artifacts/go-agent.tar.gz
+CATTLE_API_UI_URL=//releases.rancher.com/api-ui/1.0.8
+CATTLE_CATTLE_VERSION=v0.181.4
+CATTLE_DB_CATTLE_DATABASE=mysql
+CATTLE_DB_CATTLE_MYSQL_HOST=localhost
+CATTLE_DB_CATTLE_MYSQL_NAME=cattle
+CATTLE_DB_CATTLE_MYSQL_PORT=3306
+CATTLE_DB_CATTLE_USERNAME=cattle
+CATTLE_GRAPHITE_HOST=
+CATTLE_GRAPHITE_PORT=
+CATTLE_HOME=/var/lib/cattle
+CATTLE_HOST_API_PROXY_MODE=embedded
+CATTLE_LOGBACK_OUTPUT_GELF_HOST=
+CATTLE_LOGBACK_OUTPUT_GELF_PORT=
+CATTLE_RANCHER_CLI_VERSION=v0.6.1
+CATTLE_RANCHER_COMPOSE_VERSION=v0.12.5
+CATTLE_RANCHER_SERVER_IMAGE=rancher/server
+CATTLE_RANCHER_SERVER_VERSION=v1.6.2
+CATTLE_USE_LOCAL_ARTIFACTS=true
+DEFAULT_CATTLE_API_UI_CSS_URL=/api-ui/ui.min.css
+DEFAULT_CATTLE_API_UI_INDEX=//releases.rancher.com/ui/1.6.5
+DEFAULT_CATTLE_API_UI_JS_URL=/api-ui/ui.min.js
+DEFAULT_CATTLE_AUTH_SERVICE_EXECUTE=true
+DEFAULT_CATTLE_CATALOG_EXECUTE=true
+DEFAULT_CATTLE_CATALOG_URL={"catalogs":{"community":{"url":"https://git.rancher.io/community-catalog.git","branch":"master"},"library":{"url":"https://git.rancher.io/rancher-catalog.git","branch":"${RELEASE}"}}}
+DEFAULT_CATTLE_COMPOSE_EXECUTOR_EXECUTE=true
+DEFAULT_CATTLE_MACHINE_EXECUTE=true
+DEFAULT_CATTLE_RANCHER_CLI_DARWIN_URL=https://releases.rancher.com/cli/v0.6.1/rancher-darwin-amd64-v0.6.1.tar.gz
+DEFAULT_CATTLE_RANCHER_CLI_LINUX_URL=https://releases.rancher.com/cli/v0.6.1/rancher-linux-amd64-v0.6.1.tar.gz
+DEFAULT_CATTLE_RANCHER_CLI_WINDOWS_URL=https://releases.rancher.com/cli/v0.6.1/rancher-windows-386-v0.6.1.zip
+DEFAULT_CATTLE_RANCHER_COMPOSE_DARWIN_URL=https://releases.rancher.com/compose/v0.12.5/rancher-compose-darwin-amd64-v0.12.5.tar.gz
+DEFAULT_CATTLE_RANCHER_COMPOSE_LINUX_URL=https://releases.rancher.com/compose/v0.12.5/rancher-compose-linux-amd64-v0.12.5.tar.gz
+DEFAULT_CATTLE_RANCHER_COMPOSE_WINDOWS_URL=https://releases.rancher.com/compose/v0.12.5/rancher-compose-windows-386-v0.12.5.zip
+DEFAULT_CATTLE_SECRETS_API_EXECUTE=true
+DEFAULT_CATTLE_WEBHOOK_SERVICE_EXECUTE=true
+15:21:36.412 [main] INFO  ConsoleStatus - Loading configuration
+2017-06-15 15:21:42,453 INFO    [main] [ConsoleStatus] Starting DB migration 
+2017-06-15 15:21:43,888 WARN    [main] [liquibase] modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case 
+2017-06-15 15:21:43,888 WARN    [main] [liquibase] modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case 
+2017-06-15 15:21:43,888 WARN    [main] [liquibase] modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case 
+2017-06-15 15:22:18,905 INFO    [main] [ConsoleStatus] DB migration done 
+2017-06-15 15:22:19,454 INFO    [main] [ConsoleStatus] Cluster membership changed [127.0.0.1:9345] 
+2017-06-15 15:22:19,454 INFO    [main] [ConsoleStatus] Checking cluster state on start-up 
+2017-06-15 15:22:21,676 INFO    [main] [ConsoleStatus] Loading processes 
+2017-06-15 15:22:22,318 INFO    [main] [ConsoleStatus] Starting [1/89]: LockDelegatorImpl 
+2017-06-15 15:22:22,318 INFO    [main] [ConsoleStatus] Starting [2/89]: AnnotatedListenerRegistration 
+2017-06-15 15:22:22,372 INFO    [main] [ConsoleStatus] Starting [3/89]: EventService 
+2017-06-15 15:22:22,372 INFO    [main] [ConsoleStatus] Starting [4/89]: DefaultObjectMetaDataManager 
+2017-06-15 15:22:23,158 INFO    [main] [ConsoleStatus] Starting [5/89]: JsonDefaultsProvider 
+2017-06-15 15:22:23,198 INFO    [main] [ConsoleStatus] Starting [6/89]: ObjectDefaultsPostInstantiationHandler 
+2017-06-15 15:22:23,198 INFO    [main] [ConsoleStatus] Starting [7/89]: DefaultProcessManager 
+2017-06-15 15:22:23,199 INFO    [main] [ConsoleStatus] Starting [8/89]: SampleDataStartupV3 
+2017-06-15 15:22:26,686 INFO    [main] [ConsoleStatus] Starting [9/89]: TaskManagerImpl 
+2017-06-15 15:22:29,641 INFO    [main] [ConsoleStatus] Starting [10/89]: ServiceAccountCreateStartup 
+2017-06-15 15:22:32,649 INFO    [main] [ConsoleStatus] Starting [11/89]: WebsocketProxyLauncher 
+2017-06-15 15:22:32,650 INFO    [main] [ConsoleStatus] Starting [12/89]: SampleDataStartupV15 
+2017-06-15 15:22:32,713 INFO    [main] [ConsoleStatus] Starting [13/89]: SchemaFactory:v1-admin 
+2017-06-15 15:22:32,984 INFO    [main] [ConsoleStatus] Starting [14/89]: SchemaFactory:v1-agent 
+2017-06-15 15:22:32,990 INFO    [main] [ConsoleStatus] Starting [15/89]: SchemaFactory:v1-agentRegister 
+2017-06-15 15:22:33,014 INFO    [main] [ConsoleStatus] Starting [16/89]: SchemaFactory:v1-base 
+2017-06-15 15:22:33,256 INFO    [main] [ConsoleStatus] Starting [17/89]: SchemaFactory:v1-member 
+2017-06-15 15:22:33,443 INFO    [main] [ConsoleStatus] Starting [18/89]: SchemaFactory:v1-owner 
+2017-06-15 15:22:33,594 INFO    [main] [ConsoleStatus] Starting [19/89]: SchemaFactory:v1-project 
+2017-06-15 15:22:33,854 INFO    [main] [ConsoleStatus] Starting [20/89]: SchemaFactory:v1-projectadmin 
+2017-06-15 15:22:33,935 INFO    [main] [ConsoleStatus] Starting [21/89]: SchemaFactory:v1-readAdmin 
+2017-06-15 15:22:34,115 INFO    [main] [ConsoleStatus] Starting [22/89]: SchemaFactory:v1-readonly 
+2017-06-15 15:22:34,169 INFO    [main] [ConsoleStatus] Starting [23/89]: SchemaFactory:v1-register 
+2017-06-15 15:22:34,170 INFO    [main] [ConsoleStatus] Starting [24/89]: SchemaFactory:v1-restricted 
+2017-06-15 15:22:34,325 INFO    [main] [ConsoleStatus] Starting [25/89]: SchemaFactory:v1-service 
+2017-06-15 15:22:34,652 INFO    [main] [ConsoleStatus] Starting [26/89]: SchemaFactory:v1-token 
+2017-06-15 15:22:34,653 INFO    [main] [ConsoleStatus] Starting [27/89]: SchemaFactory:v1-user 
+2017-06-15 15:22:34,838 INFO    [main] [ConsoleStatus] Starting [28/89]: AgentBasedProcessHandler 
+2017-06-15 15:22:34,838 INFO    [main] [ConsoleStatus] Starting [29/89]: AgentHostStateUpdate 
+2017-06-15 15:22:34,838 INFO    [main] [ConsoleStatus] Starting [30/89]: AuthServiceLauncher 
+2017-06-15 15:22:34,840 INFO    [main] [ConsoleStatus] Starting [31/89]: BackupCreate 
+2017-06-15 15:22:34,841 INFO    [main] [ConsoleStatus] Starting [32/89]: BackupRemove 
+2017-06-15 15:22:34,841 INFO    [main] [ConsoleStatus] Starting [33/89]: CatalogLauncher 
+2017-06-15 15:22:34,841 INFO    [main] [ConsoleStatus] Starting [34/89]: ComposeExecutorLauncher 
+2017-06-15 15:22:34,841 INFO    [main] [ConsoleStatus] Starting [35/89]: ConfigItemRegistryImpl 
+2017-06-15 15:22:35,451 INFO    [main] [ConsoleStatus] Starting [36/89]: ConfigItemServerImpl 
+time="2017-06-15T15:22:39Z" level=info msg="Starting rancher-compose-executor" version=v0.14.9 
+time="2017-06-15T15:22:40Z" level=fatal msg="Unable to create event router" error="Get http://localhost:8080/v2-beta: dial tcp [::1]:8080: getsockopt: connection refused" 
+time="2017-06-15T15:22:40Z" level=info msg="Starting rancher-compose-executor" version=v0.14.9 
+time="2017-06-15T15:22:40Z" level=fatal msg="Unable to create event router" error="Get http://localhost:8080/v2-beta: dial tcp [::1]:8080: getsockopt: connection refused" 
+2017-06-15 15:22:42,685 WARN  [:] [] [] [] [main           ] [o.eclipse.jetty.webapp.WebAppContext] Failed startup of context o.e.j.w.WebAppContext@1bce4f0a{/,file:/usr/share/cattle/0e44936b6b56ae4372799b0f48e6e934/,STARTING}{file:/usr/share/cattle/0e44936b6b56ae4372799b0f48e6e934/} org.jooq.exception.DataAccessException: SQL [insert into `data` (`name`, `visible`, `value`) values (?, ?, ?)]; (conn:12) Duplicate entry 'host.api.key' for key 'idx_data_name'
+Query is: insert into `data` (`name`, `visible`, `value`) values (?, ?, ?), parameters ['host.api.key',0,'-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAxgPI0wwnRoAqBm4kq/648CrC0JMHYod7CGs7VJuqI3XpI0nH
+Nl6MD+vACQOYoiqFfcdFTlCNgBD2HVZqlK4Ip7NUqbYsscpAkWrSNKtVsExDoyTM
+67iEEqtUSxCDfina6GdxTFZy7xlzbHC71/xGiZ3gs5fJZCheqCGsAuAnqpkWzK9m
+kfgS10BFraLN480mz0Bm6zzxtZiSt4FzncSy+3RDrrsOW3ZNSMWLKGh0byKyW1H3
+Dwfix/A7b1hYJSBrgzBC9yh26FHZ0n/naOY/UIRhbIjpeKiq8TuQQlyfd6NpNeum
+5B1mr0VUzCvmeXxL/LKpRwmClAiW2x0/cvgOiQIDAQABAoIBAAi80UNlz4RcAq64
+tL/NrEO1wVWyjTJ+87IACFTQDyKEMRLMbkDTDHdl4doL+XPbcDtH/CIL6iiG5xNN
+lUOlB879mexotGFugSmhhu/JySzPurLT3IKAyHwp6PzseD7skiMr8FsL3AO6seYM
+te8+i67GI4yNM7bqlJ2y6awRT9LGXWyh/1hHr0HzF4XM0SIqvoSYZ3tjJ6hbM1N6
+1y9PFdpGECv1giFKdnC8cBCsVdlnJZxGwLEpxTMCa5EVTo6CQeiasVOsYlVQeWt0
+2TUGB/Mzh6nfCPc5xsz6fuKzg8g5SxLv4o69qDJBvCPvp4SaK73kCiW5MWvTuImQ
+1nO6bwECgYEA7rXYJF1NSM1ZCCCwHMK7uos/1FPVGRHiP4OPyuxMUIQXMK2t1kXh
+SNE0W7dI1CC5x70Sc5dAJuhr1mJja+RdLtt11+6DpcDTAkeF/IZkrquY55tIgSM9
+DRxeVUPuQliiGqMvQCH5ig5chfZjNjsL6otu0QcGDdbi/Rdm...
+	at org.jooq.impl.Utils.translate(Utils.java:1287) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.DefaultExecuteContext.sqlException(DefaultExecuteContext.java:495) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.AbstractQuery.execute(AbstractQuery.java:326) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.UpdatableRecordImpl.storeInsert0(UpdatableRecordImpl.java:230) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.UpdatableRecordImpl.access$100(UpdatableRecordImpl.java:90) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.UpdatableRecordImpl$2.operate(UpdatableRecordImpl.java:201) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.RecordDelegate.operate(RecordDelegate.java:123) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.UpdatableRecordImpl.storeInsert(UpdatableRecordImpl.java:196) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.UpdatableRecordImpl.insert(UpdatableRecordImpl.java:144) ~[jooq-3.3.0.jar:na]
+	at io.cattle.platform.object.impl.JooqObjectManager$1.executeNoResult(JooqObjectManager.java:80) ~[cattle-framework-object-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.engine.idempotent.IdempotentExecutionNoReturn.execute(IdempotentExecutionNoReturn.java:7) ~[cattle-framework-engine-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.engine.idempotent.IdempotentExecutionNoReturn.execute(IdempotentExecutionNoReturn.java:3) ~[cattle-framework-engine-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.engine.idempotent.Idempotent.change(Idempotent.java:88) ~[cattle-framework-engine-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.object.impl.JooqObjectManager.insert(JooqObjectManager.java:77) ~[cattle-framework-object-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.object.impl.AbstractObjectManager.create(AbstractObjectManager.java:62) ~[cattle-framework-object-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.object.impl.AbstractObjectManager.create(AbstractObjectManager.java:72) ~[cattle-framework-object-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.core.dao.impl.DataDaoImpl$1.doWithLock(DataDaoImpl.java:53) ~[cattle-iaas-model-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.core.dao.impl.DataDaoImpl$1.doWithLock(DataDaoImpl.java:33) ~[cattle-iaas-model-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.AbstractLockManagerImpl$3.doWithLock(AbstractLockManagerImpl.java:40) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.LockManagerImpl.doLock(LockManagerImpl.java:33) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.AbstractLockManagerImpl.lock(AbstractLockManagerImpl.java:13) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.AbstractLockManagerImpl.lock(AbstractLockManagerImpl.java:37) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.core.dao.impl.DataDaoImpl.getOrCreate(DataDaoImpl.java:33) ~[cattle-iaas-model-0.5.0-SNAPSHOT.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_72]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_72]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_72]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_72]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99) ~[spring-tx-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:280) ~[spring-tx-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96) ~[spring-tx-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at com.sun.proxy.$Proxy48.getOrCreate(Unknown Source) ~[na:na]
+	at io.cattle.platform.host.service.HostApiRSAKeyProvider.getKeyPair(HostApiRSAKeyProvider.java:58) ~[cattle-host-api-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.host.service.HostApiRSAKeyProvider.getPublicKeys(HostApiRSAKeyProvider.java:114) ~[cattle-host-api-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.host.service.impl.HostApiServiceImpl.getPublicKeys(HostApiServiceImpl.java:103) ~[cattle-host-api-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.configitem.context.impl.HostApiKeyInfoFactory.getKeys(HostApiKeyInfoFactory.java:39) ~[cattle-config-item-server-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.configitem.context.impl.HostApiKeyInfoFactory.getContentHash(HostApiKeyInfoFactory.java:59) ~[cattle-config-item-server-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.configitem.server.model.impl.AbstractArchiveBasedConfigItem.getSourceRevision(AbstractArchiveBasedConfigItem.java:175) ~[cattle-config-item-server-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.configitem.server.impl.ConfigItemServerImpl$1.doWithLockNoResult(ConfigItemServerImpl.java:127) ~[cattle-config-item-server-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.LockCallbackNoReturn.doWithLock(LockCallbackNoReturn.java:7) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.LockCallbackNoReturn.doWithLock(LockCallbackNoReturn.java:3) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.AbstractLockManagerImpl$3.doWithLock(AbstractLockManagerImpl.java:40) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.LockManagerImpl.doLock(LockManagerImpl.java:33) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.AbstractLockManagerImpl.lock(AbstractLockManagerImpl.java:13) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.AbstractLockManagerImpl.lock(AbstractLockManagerImpl.java:37) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.configitem.server.impl.ConfigItemServerImpl.syncSourceVersion(ConfigItemServerImpl.java:111) ~[cattle-config-item-server-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.configitem.server.impl.ConfigItemServerImpl.start(ConfigItemServerImpl.java:102) ~[cattle-config-item-server-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.spring.web.StartupListener.contextInitialized(StartupListener.java:92) ~[cattle-framework-spring-module-0.5.0-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:800) ~[jetty-server-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:444) ~[jetty-servlet-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:791) ~[jetty-server-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:294) ~[jetty-servlet-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1349) ~[jetty-webapp-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1342) ~[jetty-webapp-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:741) ~[jetty-server-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:505) ~[jetty-webapp-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [jetty-util-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132) [jetty-util-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.server.Server.start(Server.java:387) [jetty-server-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114) [jetty-util-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61) [jetty-server-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:354) [jetty-server-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [jetty-util-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at io.cattle.platform.launcher.jetty.Main.main(Main.java:146) [0e44936b6b56ae4372799b0f48e6e934/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_72]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_72]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_72]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_72]
+	at io.cattle.platform.launcher.Main.run(Main.java:188) [0e44936b6b56ae4372799b0f48e6e934/:na]
+	at io.cattle.platform.launcher.Main.main(Main.java:251) [0e44936b6b56ae4372799b0f48e6e934/:na]
+Caused by: java.sql.SQLIntegrityConstraintViolationException: (conn:12) Duplicate entry 'host.api.key' for key 'idx_data_name'
+Query is: insert into `data` (`name`, `visible`, `value`) values (?, ?, ?), parameters ['host.api.key',0,'-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAxgPI0wwnRoAqBm4kq/648CrC0JMHYod7CGs7VJuqI3XpI0nH
+Nl6MD+vACQOYoiqFfcdFTlCNgBD2HVZqlK4Ip7NUqbYsscpAkWrSNKtVsExDoyTM
+67iEEqtUSxCDfina6GdxTFZy7xlzbHC71/xGiZ3gs5fJZCheqCGsAuAnqpkWzK9m
+kfgS10BFraLN480mz0Bm6zzxtZiSt4FzncSy+3RDrrsOW3ZNSMWLKGh0byKyW1H3
+Dwfix/A7b1hYJSBrgzBC9yh26FHZ0n/naOY/UIRhbIjpeKiq8TuQQlyfd6NpNeum
+5B1mr0VUzCvmeXxL/LKpRwmClAiW2x0/cvgOiQIDAQABAoIBAAi80UNlz4RcAq64
+tL/NrEO1wVWyjTJ+87IACFTQDyKEMRLMbkDTDHdl4doL+XPbcDtH/CIL6iiG5xNN
+lUOlB879mexotGFugSmhhu/JySzPurLT3IKAyHwp6PzseD7skiMr8FsL3AO6seYM
+te8+i67GI4yNM7bqlJ2y6awRT9LGXWyh/1hHr0HzF4XM0SIqvoSYZ3tjJ6hbM1N6
+1y9PFdpGECv1giFKdnC8cBCsVdlnJZxGwLEpxTMCa5EVTo6CQeiasVOsYlVQeWt0
+2TUGB/Mzh6nfCPc5xsz6fuKzg8g5SxLv4o69qDJBvCPvp4SaK73kCiW5MWvTuImQ
+1nO6bwECgYEA7rXYJF1NSM1ZCCCwHMK7uos/1FPVGRHiP4OPyuxMUIQXMK2t1kXh
+SNE0W7dI1CC5x70Sc5dAJuhr1mJja+RdLtt11+6DpcDTAkeF/IZkrquY55tIgSM9
+DRxeVUPuQliiGqMvQCH5ig5chfZjNjsL6otu0QcGDdbi/Rdm...
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.get(ExceptionMapper.java:133) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.getException(ExceptionMapper.java:101) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.throwAndLogException(ExceptionMapper.java:77) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.MariaDbStatement.executeQueryEpilog(MariaDbStatement.java:224) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.MariaDbServerPreparedStatement.executeInternal(MariaDbServerPreparedStatement.java:411) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.MariaDbServerPreparedStatement.execute(MariaDbServerPreparedStatement.java:361) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.MariaDbServerPreparedStatement.executeUpdate(MariaDbServerPreparedStatement.java:350) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105) ~[commons-dbcp-1.4.jar:1.4]
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105) ~[commons-dbcp-1.4.jar:1.4]
+	at org.jooq.tools.jdbc.DefaultPreparedStatement.executeUpdate(DefaultPreparedStatement.java:88) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.AbstractStoreQuery.execute(AbstractStoreQuery.java:346) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.AbstractQuery.execute(AbstractQuery.java:322) ~[jooq-3.3.0.jar:na]
+	... 73 common frames omitted
+Caused by: org.mariadb.jdbc.internal.util.dao.QueryException: Duplicate entry 'host.api.key' for key 'idx_data_name'
+Query is: insert into `data` (`name`, `visible`, `value`) values (?, ?, ?), parameters ['host.api.key',0,'-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAxgPI0wwnRoAqBm4kq/648CrC0JMHYod7CGs7VJuqI3XpI0nH
+Nl6MD+vACQOYoiqFfcdFTlCNgBD2HVZqlK4Ip7NUqbYsscpAkWrSNKtVsExDoyTM
+67iEEqtUSxCDfina6GdxTFZy7xlzbHC71/xGiZ3gs5fJZCheqCGsAuAnqpkWzK9m
+kfgS10BFraLN480mz0Bm6zzxtZiSt4FzncSy+3RDrrsOW3ZNSMWLKGh0byKyW1H3
+Dwfix/A7b1hYJSBrgzBC9yh26FHZ0n/naOY/UIRhbIjpeKiq8TuQQlyfd6NpNeum
+5B1mr0VUzCvmeXxL/LKpRwmClAiW2x0/cvgOiQIDAQABAoIBAAi80UNlz4RcAq64
+tL/NrEO1wVWyjTJ+87IACFTQDyKEMRLMbkDTDHdl4doL+XPbcDtH/CIL6iiG5xNN
+lUOlB879mexotGFugSmhhu/JySzPurLT3IKAyHwp6PzseD7skiMr8FsL3AO6seYM
+te8+i67GI4yNM7bqlJ2y6awRT9LGXWyh/1hHr0HzF4XM0SIqvoSYZ3tjJ6hbM1N6
+1y9PFdpGECv1giFKdnC8cBCsVdlnJZxGwLEpxTMCa5EVTo6CQeiasVOsYlVQeWt0
+2TUGB/Mzh6nfCPc5xsz6fuKzg8g5SxLv4o69qDJBvCPvp4SaK73kCiW5MWvTuImQ
+1nO6bwECgYEA7rXYJF1NSM1ZCCCwHMK7uos/1FPVGRHiP4OPyuxMUIQXMK2t1kXh
+SNE0W7dI1CC5x70Sc5dAJuhr1mJja+RdLtt11+6DpcDTAkeF/IZkrquY55tIgSM9
+DRxeVUPuQliiGqMvQCH5ig5chfZjNjsL6otu0QcGDdbi/Rdm...
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readErrorPacket(AbstractQueryProtocol.java:1115) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readPacket(AbstractQueryProtocol.java:1047) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:1002) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executePreparedQuery(AbstractQueryProtocol.java:588) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.MariaDbServerPreparedStatement.executeInternal(MariaDbServerPreparedStatement.java:399) ~[mariadb-java-client-1.5.8.jar:na]
+	... 80 common frames omitted
+
+2017-06-15 15:22:42,692 WARN  [:] [] [] [] [main           ] [o.e.j.u.component.AbstractLifeCycle ] FAILED o.e.j.w.WebAppContext@1bce4f0a{/,file:/usr/share/cattle/0e44936b6b56ae4372799b0f48e6e934/,UNAVAILABLE}{file:/usr/share/cattle/0e44936b6b56ae4372799b0f48e6e934/}: org.jooq.exception.DataAccessException: SQL [insert into `data` (`name`, `visible`, `value`) values (?, ?, ?)]; (conn:12) Duplicate entry 'host.api.key' for key 'idx_data_name'
+Query is: insert into `data` (`name`, `visible`, `value`) values (?, ?, ?), parameters ['host.api.key',0,'-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAxgPI0wwnRoAqBm4kq/648CrC0JMHYod7CGs7VJuqI3XpI0nH
+Nl6MD+vACQOYoiqFfcdFTlCNgBD2HVZqlK4Ip7NUqbYsscpAkWrSNKtVsExDoyTM
+67iEEqtUSxCDfina6GdxTFZy7xlzbHC71/xGiZ3gs5fJZCheqCGsAuAnqpkWzK9m
+kfgS10BFraLN480mz0Bm6zzxtZiSt4FzncSy+3RDrrsOW3ZNSMWLKGh0byKyW1H3
+Dwfix/A7b1hYJSBrgzBC9yh26FHZ0n/naOY/UIRhbIjpeKiq8TuQQlyfd6NpNeum
+5B1mr0VUzCvmeXxL/LKpRwmClAiW2x0/cvgOiQIDAQABAoIBAAi80UNlz4RcAq64
+tL/NrEO1wVWyjTJ+87IACFTQDyKEMRLMbkDTDHdl4doL+XPbcDtH/CIL6iiG5xNN
+lUOlB879mexotGFugSmhhu/JySzPurLT3IKAyHwp6PzseD7skiMr8FsL3AO6seYM
+te8+i67GI4yNM7bqlJ2y6awRT9LGXWyh/1hHr0HzF4XM0SIqvoSYZ3tjJ6hbM1N6
+1y9PFdpGECv1giFKdnC8cBCsVdlnJZxGwLEpxTMCa5EVTo6CQeiasVOsYlVQeWt0
+2TUGB/Mzh6nfCPc5xsz6fuKzg8g5SxLv4o69qDJBvCPvp4SaK73kCiW5MWvTuImQ
+1nO6bwECgYEA7rXYJF1NSM1ZCCCwHMK7uos/1FPVGRHiP4OPyuxMUIQXMK2t1kXh
+SNE0W7dI1CC5x70Sc5dAJuhr1mJja+RdLtt11+6DpcDTAkeF/IZkrquY55tIgSM9
+DRxeVUPuQliiGqMvQCH5ig5chfZjNjsL6otu0QcGDdbi/Rdm... org.jooq.exception.DataAccessException: SQL [insert into `data` (`name`, `visible`, `value`) values (?, ?, ?)]; (conn:12) Duplicate entry 'host.api.key' for key 'idx_data_name'
+Query is: insert into `data` (`name`, `visible`, `value`) values (?, ?, ?), parameters ['host.api.key',0,'-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAxgPI0wwnRoAqBm4kq/648CrC0JMHYod7CGs7VJuqI3XpI0nH
+Nl6MD+vACQOYoiqFfcdFTlCNgBD2HVZqlK4Ip7NUqbYsscpAkWrSNKtVsExDoyTM
+67iEEqtUSxCDfina6GdxTFZy7xlzbHC71/xGiZ3gs5fJZCheqCGsAuAnqpkWzK9m
+kfgS10BFraLN480mz0Bm6zzxtZiSt4FzncSy+3RDrrsOW3ZNSMWLKGh0byKyW1H3
+Dwfix/A7b1hYJSBrgzBC9yh26FHZ0n/naOY/UIRhbIjpeKiq8TuQQlyfd6NpNeum
+5B1mr0VUzCvmeXxL/LKpRwmClAiW2x0/cvgOiQIDAQABAoIBAAi80UNlz4RcAq64
+tL/NrEO1wVWyjTJ+87IACFTQDyKEMRLMbkDTDHdl4doL+XPbcDtH/CIL6iiG5xNN
+lUOlB879mexotGFugSmhhu/JySzPurLT3IKAyHwp6PzseD7skiMr8FsL3AO6seYM
+te8+i67GI4yNM7bqlJ2y6awRT9LGXWyh/1hHr0HzF4XM0SIqvoSYZ3tjJ6hbM1N6
+1y9PFdpGECv1giFKdnC8cBCsVdlnJZxGwLEpxTMCa5EVTo6CQeiasVOsYlVQeWt0
+2TUGB/Mzh6nfCPc5xsz6fuKzg8g5SxLv4o69qDJBvCPvp4SaK73kCiW5MWvTuImQ
+1nO6bwECgYEA7rXYJF1NSM1ZCCCwHMK7uos/1FPVGRHiP4OPyuxMUIQXMK2t1kXh
+SNE0W7dI1CC5x70Sc5dAJuhr1mJja+RdLtt11+6DpcDTAkeF/IZkrquY55tIgSM9
+DRxeVUPuQliiGqMvQCH5ig5chfZjNjsL6otu0QcGDdbi/Rdm...
+	at org.jooq.impl.Utils.translate(Utils.java:1287) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.DefaultExecuteContext.sqlException(DefaultExecuteContext.java:495) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.AbstractQuery.execute(AbstractQuery.java:326) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.UpdatableRecordImpl.storeInsert0(UpdatableRecordImpl.java:230) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.UpdatableRecordImpl.access$100(UpdatableRecordImpl.java:90) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.UpdatableRecordImpl$2.operate(UpdatableRecordImpl.java:201) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.RecordDelegate.operate(RecordDelegate.java:123) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.UpdatableRecordImpl.storeInsert(UpdatableRecordImpl.java:196) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.UpdatableRecordImpl.insert(UpdatableRecordImpl.java:144) ~[jooq-3.3.0.jar:na]
+	at io.cattle.platform.object.impl.JooqObjectManager$1.executeNoResult(JooqObjectManager.java:80) ~[cattle-framework-object-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.engine.idempotent.IdempotentExecutionNoReturn.execute(IdempotentExecutionNoReturn.java:7) ~[cattle-framework-engine-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.engine.idempotent.IdempotentExecutionNoReturn.execute(IdempotentExecutionNoReturn.java:3) ~[cattle-framework-engine-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.engine.idempotent.Idempotent.change(Idempotent.java:88) ~[cattle-framework-engine-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.object.impl.JooqObjectManager.insert(JooqObjectManager.java:77) ~[cattle-framework-object-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.object.impl.AbstractObjectManager.create(AbstractObjectManager.java:62) ~[cattle-framework-object-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.object.impl.AbstractObjectManager.create(AbstractObjectManager.java:72) ~[cattle-framework-object-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.core.dao.impl.DataDaoImpl$1.doWithLock(DataDaoImpl.java:53) ~[cattle-iaas-model-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.core.dao.impl.DataDaoImpl$1.doWithLock(DataDaoImpl.java:33) ~[cattle-iaas-model-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.AbstractLockManagerImpl$3.doWithLock(AbstractLockManagerImpl.java:40) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.LockManagerImpl.doLock(LockManagerImpl.java:33) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.AbstractLockManagerImpl.lock(AbstractLockManagerImpl.java:13) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.AbstractLockManagerImpl.lock(AbstractLockManagerImpl.java:37) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.core.dao.impl.DataDaoImpl.getOrCreate(DataDaoImpl.java:33) ~[cattle-iaas-model-0.5.0-SNAPSHOT.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_72]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_72]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_72]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_72]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99) ~[spring-tx-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:280) ~[spring-tx-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96) ~[spring-tx-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at com.sun.proxy.$Proxy48.getOrCreate(Unknown Source) ~[na:na]
+	at io.cattle.platform.host.service.HostApiRSAKeyProvider.getKeyPair(HostApiRSAKeyProvider.java:58) ~[cattle-host-api-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.host.service.HostApiRSAKeyProvider.getPublicKeys(HostApiRSAKeyProvider.java:114) ~[cattle-host-api-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.host.service.impl.HostApiServiceImpl.getPublicKeys(HostApiServiceImpl.java:103) ~[cattle-host-api-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.configitem.context.impl.HostApiKeyInfoFactory.getKeys(HostApiKeyInfoFactory.java:39) ~[cattle-config-item-server-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.configitem.context.impl.HostApiKeyInfoFactory.getContentHash(HostApiKeyInfoFactory.java:59) ~[cattle-config-item-server-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.configitem.server.model.impl.AbstractArchiveBasedConfigItem.getSourceRevision(AbstractArchiveBasedConfigItem.java:175) ~[cattle-config-item-server-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.configitem.server.impl.ConfigItemServerImpl$1.doWithLockNoResult(ConfigItemServerImpl.java:127) ~[cattle-config-item-server-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.LockCallbackNoReturn.doWithLock(LockCallbackNoReturn.java:7) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.LockCallbackNoReturn.doWithLock(LockCallbackNoReturn.java:3) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.AbstractLockManagerImpl$3.doWithLock(AbstractLockManagerImpl.java:40) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.LockManagerImpl.doLock(LockManagerImpl.java:33) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.AbstractLockManagerImpl.lock(AbstractLockManagerImpl.java:13) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.AbstractLockManagerImpl.lock(AbstractLockManagerImpl.java:37) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.configitem.server.impl.ConfigItemServerImpl.syncSourceVersion(ConfigItemServerImpl.java:111) ~[cattle-config-item-server-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.configitem.server.impl.ConfigItemServerImpl.start(ConfigItemServerImpl.java:102) ~[cattle-config-item-server-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.spring.web.StartupListener.contextInitialized(StartupListener.java:92) ~[cattle-framework-spring-module-0.5.0-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:800) ~[jetty-server-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:444) ~[jetty-servlet-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:791) ~[jetty-server-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:294) ~[jetty-servlet-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1349) ~[jetty-webapp-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1342) ~[jetty-webapp-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:741) ~[jetty-server-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:505) ~[jetty-webapp-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [jetty-util-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132) [jetty-util-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.server.Server.start(Server.java:387) [jetty-server-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114) [jetty-util-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61) [jetty-server-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:354) [jetty-server-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [jetty-util-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at io.cattle.platform.launcher.jetty.Main.main(Main.java:146) [0e44936b6b56ae4372799b0f48e6e934/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_72]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_72]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_72]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_72]
+	at io.cattle.platform.launcher.Main.run(Main.java:188) [0e44936b6b56ae4372799b0f48e6e934/:na]
+	at io.cattle.platform.launcher.Main.main(Main.java:251) [0e44936b6b56ae4372799b0f48e6e934/:na]
+Caused by: java.sql.SQLIntegrityConstraintViolationException: (conn:12) Duplicate entry 'host.api.key' for key 'idx_data_name'
+Query is: insert into `data` (`name`, `visible`, `value`) values (?, ?, ?), parameters ['host.api.key',0,'-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAxgPI0wwnRoAqBm4kq/648CrC0JMHYod7CGs7VJuqI3XpI0nH
+Nl6MD+vACQOYoiqFfcdFTlCNgBD2HVZqlK4Ip7NUqbYsscpAkWrSNKtVsExDoyTM
+67iEEqtUSxCDfina6GdxTFZy7xlzbHC71/xGiZ3gs5fJZCheqCGsAuAnqpkWzK9m
+kfgS10BFraLN480mz0Bm6zzxtZiSt4FzncSy+3RDrrsOW3ZNSMWLKGh0byKyW1H3
+Dwfix/A7b1hYJSBrgzBC9yh26FHZ0n/naOY/UIRhbIjpeKiq8TuQQlyfd6NpNeum
+5B1mr0VUzCvmeXxL/LKpRwmClAiW2x0/cvgOiQIDAQABAoIBAAi80UNlz4RcAq64
+tL/NrEO1wVWyjTJ+87IACFTQDyKEMRLMbkDTDHdl4doL+XPbcDtH/CIL6iiG5xNN
+lUOlB879mexotGFugSmhhu/JySzPurLT3IKAyHwp6PzseD7skiMr8FsL3AO6seYM
+te8+i67GI4yNM7bqlJ2y6awRT9LGXWyh/1hHr0HzF4XM0SIqvoSYZ3tjJ6hbM1N6
+1y9PFdpGECv1giFKdnC8cBCsVdlnJZxGwLEpxTMCa5EVTo6CQeiasVOsYlVQeWt0
+2TUGB/Mzh6nfCPc5xsz6fuKzg8g5SxLv4o69qDJBvCPvp4SaK73kCiW5MWvTuImQ
+1nO6bwECgYEA7rXYJF1NSM1ZCCCwHMK7uos/1FPVGRHiP4OPyuxMUIQXMK2t1kXh
+SNE0W7dI1CC5x70Sc5dAJuhr1mJja+RdLtt11+6DpcDTAkeF/IZkrquY55tIgSM9
+DRxeVUPuQliiGqMvQCH5ig5chfZjNjsL6otu0QcGDdbi/Rdm...
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.get(ExceptionMapper.java:133) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.getException(ExceptionMapper.java:101) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.throwAndLogException(ExceptionMapper.java:77) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.MariaDbStatement.executeQueryEpilog(MariaDbStatement.java:224) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.MariaDbServerPreparedStatement.executeInternal(MariaDbServerPreparedStatement.java:411) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.MariaDbServerPreparedStatement.execute(MariaDbServerPreparedStatement.java:361) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.MariaDbServerPreparedStatement.executeUpdate(MariaDbServerPreparedStatement.java:350) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105) ~[commons-dbcp-1.4.jar:1.4]
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105) ~[commons-dbcp-1.4.jar:1.4]
+	at org.jooq.tools.jdbc.DefaultPreparedStatement.executeUpdate(DefaultPreparedStatement.java:88) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.AbstractStoreQuery.execute(AbstractStoreQuery.java:346) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.AbstractQuery.execute(AbstractQuery.java:322) ~[jooq-3.3.0.jar:na]
+	... 73 common frames omitted
+Caused by: org.mariadb.jdbc.internal.util.dao.QueryException: Duplicate entry 'host.api.key' for key 'idx_data_name'
+Query is: insert into `data` (`name`, `visible`, `value`) values (?, ?, ?), parameters ['host.api.key',0,'-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAxgPI0wwnRoAqBm4kq/648CrC0JMHYod7CGs7VJuqI3XpI0nH
+Nl6MD+vACQOYoiqFfcdFTlCNgBD2HVZqlK4Ip7NUqbYsscpAkWrSNKtVsExDoyTM
+67iEEqtUSxCDfina6GdxTFZy7xlzbHC71/xGiZ3gs5fJZCheqCGsAuAnqpkWzK9m
+kfgS10BFraLN480mz0Bm6zzxtZiSt4FzncSy+3RDrrsOW3ZNSMWLKGh0byKyW1H3
+Dwfix/A7b1hYJSBrgzBC9yh26FHZ0n/naOY/UIRhbIjpeKiq8TuQQlyfd6NpNeum
+5B1mr0VUzCvmeXxL/LKpRwmClAiW2x0/cvgOiQIDAQABAoIBAAi80UNlz4RcAq64
+tL/NrEO1wVWyjTJ+87IACFTQDyKEMRLMbkDTDHdl4doL+XPbcDtH/CIL6iiG5xNN
+lUOlB879mexotGFugSmhhu/JySzPurLT3IKAyHwp6PzseD7skiMr8FsL3AO6seYM
+te8+i67GI4yNM7bqlJ2y6awRT9LGXWyh/1hHr0HzF4XM0SIqvoSYZ3tjJ6hbM1N6
+1y9PFdpGECv1giFKdnC8cBCsVdlnJZxGwLEpxTMCa5EVTo6CQeiasVOsYlVQeWt0
+2TUGB/Mzh6nfCPc5xsz6fuKzg8g5SxLv4o69qDJBvCPvp4SaK73kCiW5MWvTuImQ
+1nO6bwECgYEA7rXYJF1NSM1ZCCCwHMK7uos/1FPVGRHiP4OPyuxMUIQXMK2t1kXh
+SNE0W7dI1CC5x70Sc5dAJuhr1mJja+RdLtt11+6DpcDTAkeF/IZkrquY55tIgSM9
+DRxeVUPuQliiGqMvQCH5ig5chfZjNjsL6otu0QcGDdbi/Rdm...
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readErrorPacket(AbstractQueryProtocol.java:1115) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readPacket(AbstractQueryProtocol.java:1047) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:1002) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executePreparedQuery(AbstractQueryProtocol.java:588) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.MariaDbServerPreparedStatement.executeInternal(MariaDbServerPreparedStatement.java:399) ~[mariadb-java-client-1.5.8.jar:na]
+	... 80 common frames omitted
+
+time="2017-06-15T15:22:42Z" level=info msg="Starting rancher-compose-executor" version=v0.14.9 
+time="2017-06-15T15:22:42Z" level=fatal msg="Unable to create event router" error="Get http://localhost:8080/v2-beta: dial tcp [::1]:8080: getsockopt: connection refused" 
+2017-06-15 15:22:42,919 WARN  [:] [] [] [] [main           ] [o.e.j.u.component.AbstractLifeCycle ] FAILED org.eclipse.jetty.server.Server@34b7bfc0: org.jooq.exception.DataAccessException: SQL [insert into `data` (`name`, `visible`, `value`) values (?, ?, ?)]; (conn:12) Duplicate entry 'host.api.key' for key 'idx_data_name'
+Query is: insert into `data` (`name`, `visible`, `value`) values (?, ?, ?), parameters ['host.api.key',0,'-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAxgPI0wwnRoAqBm4kq/648CrC0JMHYod7CGs7VJuqI3XpI0nH
+Nl6MD+vACQOYoiqFfcdFTlCNgBD2HVZqlK4Ip7NUqbYsscpAkWrSNKtVsExDoyTM
+67iEEqtUSxCDfina6GdxTFZy7xlzbHC71/xGiZ3gs5fJZCheqCGsAuAnqpkWzK9m
+kfgS10BFraLN480mz0Bm6zzxtZiSt4FzncSy+3RDrrsOW3ZNSMWLKGh0byKyW1H3
+Dwfix/A7b1hYJSBrgzBC9yh26FHZ0n/naOY/UIRhbIjpeKiq8TuQQlyfd6NpNeum
+5B1mr0VUzCvmeXxL/LKpRwmClAiW2x0/cvgOiQIDAQABAoIBAAi80UNlz4RcAq64
+tL/NrEO1wVWyjTJ+87IACFTQDyKEMRLMbkDTDHdl4doL+XPbcDtH/CIL6iiG5xNN
+lUOlB879mexotGFugSmhhu/JySzPurLT3IKAyHwp6PzseD7skiMr8FsL3AO6seYM
+te8+i67GI4yNM7bqlJ2y6awRT9LGXWyh/1hHr0HzF4XM0SIqvoSYZ3tjJ6hbM1N6
+1y9PFdpGECv1giFKdnC8cBCsVdlnJZxGwLEpxTMCa5EVTo6CQeiasVOsYlVQeWt0
+2TUGB/Mzh6nfCPc5xsz6fuKzg8g5SxLv4o69qDJBvCPvp4SaK73kCiW5MWvTuImQ
+1nO6bwECgYEA7rXYJF1NSM1ZCCCwHMK7uos/1FPVGRHiP4OPyuxMUIQXMK2t1kXh
+SNE0W7dI1CC5x70Sc5dAJuhr1mJja+RdLtt11+6DpcDTAkeF/IZkrquY55tIgSM9
+DRxeVUPuQliiGqMvQCH5ig5chfZjNjsL6otu0QcGDdbi/Rdm... org.jooq.exception.DataAccessException: SQL [insert into `data` (`name`, `visible`, `value`) values (?, ?, ?)]; (conn:12) Duplicate entry 'host.api.key' for key 'idx_data_name'
+Query is: insert into `data` (`name`, `visible`, `value`) values (?, ?, ?), parameters ['host.api.key',0,'-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAxgPI0wwnRoAqBm4kq/648CrC0JMHYod7CGs7VJuqI3XpI0nH
+Nl6MD+vACQOYoiqFfcdFTlCNgBD2HVZqlK4Ip7NUqbYsscpAkWrSNKtVsExDoyTM
+67iEEqtUSxCDfina6GdxTFZy7xlzbHC71/xGiZ3gs5fJZCheqCGsAuAnqpkWzK9m
+kfgS10BFraLN480mz0Bm6zzxtZiSt4FzncSy+3RDrrsOW3ZNSMWLKGh0byKyW1H3
+Dwfix/A7b1hYJSBrgzBC9yh26FHZ0n/naOY/UIRhbIjpeKiq8TuQQlyfd6NpNeum
+5B1mr0VUzCvmeXxL/LKpRwmClAiW2x0/cvgOiQIDAQABAoIBAAi80UNlz4RcAq64
+tL/NrEO1wVWyjTJ+87IACFTQDyKEMRLMbkDTDHdl4doL+XPbcDtH/CIL6iiG5xNN
+lUOlB879mexotGFugSmhhu/JySzPurLT3IKAyHwp6PzseD7skiMr8FsL3AO6seYM
+te8+i67GI4yNM7bqlJ2y6awRT9LGXWyh/1hHr0HzF4XM0SIqvoSYZ3tjJ6hbM1N6
+1y9PFdpGECv1giFKdnC8cBCsVdlnJZxGwLEpxTMCa5EVTo6CQeiasVOsYlVQeWt0
+2TUGB/Mzh6nfCPc5xsz6fuKzg8g5SxLv4o69qDJBvCPvp4SaK73kCiW5MWvTuImQ
+1nO6bwECgYEA7rXYJF1NSM1ZCCCwHMK7uos/1FPVGRHiP4OPyuxMUIQXMK2t1kXh
+SNE0W7dI1CC5x70Sc5dAJuhr1mJja+RdLtt11+6DpcDTAkeF/IZkrquY55tIgSM9
+DRxeVUPuQliiGqMvQCH5ig5chfZjNjsL6otu0QcGDdbi/Rdm...
+	at org.jooq.impl.Utils.translate(Utils.java:1287) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.DefaultExecuteContext.sqlException(DefaultExecuteContext.java:495) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.AbstractQuery.execute(AbstractQuery.java:326) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.UpdatableRecordImpl.storeInsert0(UpdatableRecordImpl.java:230) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.UpdatableRecordImpl.access$100(UpdatableRecordImpl.java:90) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.UpdatableRecordImpl$2.operate(UpdatableRecordImpl.java:201) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.RecordDelegate.operate(RecordDelegate.java:123) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.UpdatableRecordImpl.storeInsert(UpdatableRecordImpl.java:196) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.UpdatableRecordImpl.insert(UpdatableRecordImpl.java:144) ~[jooq-3.3.0.jar:na]
+	at io.cattle.platform.object.impl.JooqObjectManager$1.executeNoResult(JooqObjectManager.java:80) ~[cattle-framework-object-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.engine.idempotent.IdempotentExecutionNoReturn.execute(IdempotentExecutionNoReturn.java:7) ~[cattle-framework-engine-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.engine.idempotent.IdempotentExecutionNoReturn.execute(IdempotentExecutionNoReturn.java:3) ~[cattle-framework-engine-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.engine.idempotent.Idempotent.change(Idempotent.java:88) ~[cattle-framework-engine-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.object.impl.JooqObjectManager.insert(JooqObjectManager.java:77) ~[cattle-framework-object-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.object.impl.AbstractObjectManager.create(AbstractObjectManager.java:62) ~[cattle-framework-object-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.object.impl.AbstractObjectManager.create(AbstractObjectManager.java:72) ~[cattle-framework-object-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.core.dao.impl.DataDaoImpl$1.doWithLock(DataDaoImpl.java:53) ~[cattle-iaas-model-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.core.dao.impl.DataDaoImpl$1.doWithLock(DataDaoImpl.java:33) ~[cattle-iaas-model-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.AbstractLockManagerImpl$3.doWithLock(AbstractLockManagerImpl.java:40) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.LockManagerImpl.doLock(LockManagerImpl.java:33) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.AbstractLockManagerImpl.lock(AbstractLockManagerImpl.java:13) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.AbstractLockManagerImpl.lock(AbstractLockManagerImpl.java:37) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.core.dao.impl.DataDaoImpl.getOrCreate(DataDaoImpl.java:33) ~[cattle-iaas-model-0.5.0-SNAPSHOT.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_72]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_72]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_72]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_72]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99) ~[spring-tx-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:280) ~[spring-tx-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96) ~[spring-tx-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at com.sun.proxy.$Proxy48.getOrCreate(Unknown Source) ~[na:na]
+	at io.cattle.platform.host.service.HostApiRSAKeyProvider.getKeyPair(HostApiRSAKeyProvider.java:58) ~[cattle-host-api-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.host.service.HostApiRSAKeyProvider.getPublicKeys(HostApiRSAKeyProvider.java:114) ~[cattle-host-api-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.host.service.impl.HostApiServiceImpl.getPublicKeys(HostApiServiceImpl.java:103) ~[cattle-host-api-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.configitem.context.impl.HostApiKeyInfoFactory.getKeys(HostApiKeyInfoFactory.java:39) ~[cattle-config-item-server-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.configitem.context.impl.HostApiKeyInfoFactory.getContentHash(HostApiKeyInfoFactory.java:59) ~[cattle-config-item-server-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.configitem.server.model.impl.AbstractArchiveBasedConfigItem.getSourceRevision(AbstractArchiveBasedConfigItem.java:175) ~[cattle-config-item-server-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.configitem.server.impl.ConfigItemServerImpl$1.doWithLockNoResult(ConfigItemServerImpl.java:127) ~[cattle-config-item-server-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.LockCallbackNoReturn.doWithLock(LockCallbackNoReturn.java:7) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.LockCallbackNoReturn.doWithLock(LockCallbackNoReturn.java:3) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.AbstractLockManagerImpl$3.doWithLock(AbstractLockManagerImpl.java:40) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.LockManagerImpl.doLock(LockManagerImpl.java:33) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.AbstractLockManagerImpl.lock(AbstractLockManagerImpl.java:13) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.AbstractLockManagerImpl.lock(AbstractLockManagerImpl.java:37) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.configitem.server.impl.ConfigItemServerImpl.syncSourceVersion(ConfigItemServerImpl.java:111) ~[cattle-config-item-server-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.configitem.server.impl.ConfigItemServerImpl.start(ConfigItemServerImpl.java:102) ~[cattle-config-item-server-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.spring.web.StartupListener.contextInitialized(StartupListener.java:92) ~[cattle-framework-spring-module-0.5.0-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:800) ~[jetty-server-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:444) ~[jetty-servlet-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:791) ~[jetty-server-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:294) ~[jetty-servlet-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1349) ~[jetty-webapp-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1342) ~[jetty-webapp-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:741) ~[jetty-server-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:505) ~[jetty-webapp-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132) ~[jetty-util-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.server.Server.start(Server.java:387) ~[jetty-server-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114) ~[jetty-util-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61) ~[jetty-server-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:354) ~[jetty-server-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at io.cattle.platform.launcher.jetty.Main.main(Main.java:146) [0e44936b6b56ae4372799b0f48e6e934/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_72]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_72]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_72]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_72]
+	at io.cattle.platform.launcher.Main.run(Main.java:188) [0e44936b6b56ae4372799b0f48e6e934/:na]
+	at io.cattle.platform.launcher.Main.main(Main.java:251) [0e44936b6b56ae4372799b0f48e6e934/:na]
+Caused by: java.sql.SQLIntegrityConstraintViolationException: (conn:12) Duplicate entry 'host.api.key' for key 'idx_data_name'
+Query is: insert into `data` (`name`, `visible`, `value`) values (?, ?, ?), parameters ['host.api.key',0,'-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAxgPI0wwnRoAqBm4kq/648CrC0JMHYod7CGs7VJuqI3XpI0nH
+Nl6MD+vACQOYoiqFfcdFTlCNgBD2HVZqlK4Ip7NUqbYsscpAkWrSNKtVsExDoyTM
+67iEEqtUSxCDfina6GdxTFZy7xlzbHC71/xGiZ3gs5fJZCheqCGsAuAnqpkWzK9m
+kfgS10BFraLN480mz0Bm6zzxtZiSt4FzncSy+3RDrrsOW3ZNSMWLKGh0byKyW1H3
+Dwfix/A7b1hYJSBrgzBC9yh26FHZ0n/naOY/UIRhbIjpeKiq8TuQQlyfd6NpNeum
+5B1mr0VUzCvmeXxL/LKpRwmClAiW2x0/cvgOiQIDAQABAoIBAAi80UNlz4RcAq64
+tL/NrEO1wVWyjTJ+87IACFTQDyKEMRLMbkDTDHdl4doL+XPbcDtH/CIL6iiG5xNN
+lUOlB879mexotGFugSmhhu/JySzPurLT3IKAyHwp6PzseD7skiMr8FsL3AO6seYM
+te8+i67GI4yNM7bqlJ2y6awRT9LGXWyh/1hHr0HzF4XM0SIqvoSYZ3tjJ6hbM1N6
+1y9PFdpGECv1giFKdnC8cBCsVdlnJZxGwLEpxTMCa5EVTo6CQeiasVOsYlVQeWt0
+2TUGB/Mzh6nfCPc5xsz6fuKzg8g5SxLv4o69qDJBvCPvp4SaK73kCiW5MWvTuImQ
+1nO6bwECgYEA7rXYJF1NSM1ZCCCwHMK7uos/1FPVGRHiP4OPyuxMUIQXMK2t1kXh
+SNE0W7dI1CC5x70Sc5dAJuhr1mJja+RdLtt11+6DpcDTAkeF/IZkrquY55tIgSM9
+DRxeVUPuQliiGqMvQCH5ig5chfZjNjsL6otu0QcGDdbi/Rdm...
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.get(ExceptionMapper.java:133) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.getException(ExceptionMapper.java:101) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.throwAndLogException(ExceptionMapper.java:77) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.MariaDbStatement.executeQueryEpilog(MariaDbStatement.java:224) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.MariaDbServerPreparedStatement.executeInternal(MariaDbServerPreparedStatement.java:411) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.MariaDbServerPreparedStatement.execute(MariaDbServerPreparedStatement.java:361) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.MariaDbServerPreparedStatement.executeUpdate(MariaDbServerPreparedStatement.java:350) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105) ~[commons-dbcp-1.4.jar:1.4]
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105) ~[commons-dbcp-1.4.jar:1.4]
+	at org.jooq.tools.jdbc.DefaultPreparedStatement.executeUpdate(DefaultPreparedStatement.java:88) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.AbstractStoreQuery.execute(AbstractStoreQuery.java:346) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.AbstractQuery.execute(AbstractQuery.java:322) ~[jooq-3.3.0.jar:na]
+	... 73 common frames omitted
+Caused by: org.mariadb.jdbc.internal.util.dao.QueryException: Duplicate entry 'host.api.key' for key 'idx_data_name'
+Query is: insert into `data` (`name`, `visible`, `value`) values (?, ?, ?), parameters ['host.api.key',0,'-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAxgPI0wwnRoAqBm4kq/648CrC0JMHYod7CGs7VJuqI3XpI0nH
+Nl6MD+vACQOYoiqFfcdFTlCNgBD2HVZqlK4Ip7NUqbYsscpAkWrSNKtVsExDoyTM
+67iEEqtUSxCDfina6GdxTFZy7xlzbHC71/xGiZ3gs5fJZCheqCGsAuAnqpkWzK9m
+kfgS10BFraLN480mz0Bm6zzxtZiSt4FzncSy+3RDrrsOW3ZNSMWLKGh0byKyW1H3
+Dwfix/A7b1hYJSBrgzBC9yh26FHZ0n/naOY/UIRhbIjpeKiq8TuQQlyfd6NpNeum
+5B1mr0VUzCvmeXxL/LKpRwmClAiW2x0/cvgOiQIDAQABAoIBAAi80UNlz4RcAq64
+tL/NrEO1wVWyjTJ+87IACFTQDyKEMRLMbkDTDHdl4doL+XPbcDtH/CIL6iiG5xNN
+lUOlB879mexotGFugSmhhu/JySzPurLT3IKAyHwp6PzseD7skiMr8FsL3AO6seYM
+te8+i67GI4yNM7bqlJ2y6awRT9LGXWyh/1hHr0HzF4XM0SIqvoSYZ3tjJ6hbM1N6
+1y9PFdpGECv1giFKdnC8cBCsVdlnJZxGwLEpxTMCa5EVTo6CQeiasVOsYlVQeWt0
+2TUGB/Mzh6nfCPc5xsz6fuKzg8g5SxLv4o69qDJBvCPvp4SaK73kCiW5MWvTuImQ
+1nO6bwECgYEA7rXYJF1NSM1ZCCCwHMK7uos/1FPVGRHiP4OPyuxMUIQXMK2t1kXh
+SNE0W7dI1CC5x70Sc5dAJuhr1mJja+RdLtt11+6DpcDTAkeF/IZkrquY55tIgSM9
+DRxeVUPuQliiGqMvQCH5ig5chfZjNjsL6otu0QcGDdbi/Rdm...
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readErrorPacket(AbstractQueryProtocol.java:1115) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readPacket(AbstractQueryProtocol.java:1047) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:1002) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executePreparedQuery(AbstractQueryProtocol.java:588) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.MariaDbServerPreparedStatement.executeInternal(MariaDbServerPreparedStatement.java:399) ~[mariadb-java-client-1.5.8.jar:na]
+	... 80 common frames omitted
+
+2017-06-15 15:22:43,187 ERROR   [main] [ConsoleStatus] Startup Failed [76472ms] org.jooq.exception.DataAccessException: SQL [insert into `data` (`name`, `visible`, `value`) values (?, ?, ?)]; (conn:12) Duplicate entry 'host.api.key' for key 'idx_data_name'
+Query is: insert into `data` (`name`, `visible`, `value`) values (?, ?, ?), parameters ['host.api.key',0,'-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAxgPI0wwnRoAqBm4kq/648CrC0JMHYod7CGs7VJuqI3XpI0nH
+Nl6MD+vACQOYoiqFfcdFTlCNgBD2HVZqlK4Ip7NUqbYsscpAkWrSNKtVsExDoyTM
+67iEEqtUSxCDfina6GdxTFZy7xlzbHC71/xGiZ3gs5fJZCheqCGsAuAnqpkWzK9m
+kfgS10BFraLN480mz0Bm6zzxtZiSt4FzncSy+3RDrrsOW3ZNSMWLKGh0byKyW1H3
+Dwfix/A7b1hYJSBrgzBC9yh26FHZ0n/naOY/UIRhbIjpeKiq8TuQQlyfd6NpNeum
+5B1mr0VUzCvmeXxL/LKpRwmClAiW2x0/cvgOiQIDAQABAoIBAAi80UNlz4RcAq64
+tL/NrEO1wVWyjTJ+87IACFTQDyKEMRLMbkDTDHdl4doL+XPbcDtH/CIL6iiG5xNN
+lUOlB879mexotGFugSmhhu/JySzPurLT3IKAyHwp6PzseD7skiMr8FsL3AO6seYM
+te8+i67GI4yNM7bqlJ2y6awRT9LGXWyh/1hHr0HzF4XM0SIqvoSYZ3tjJ6hbM1N6
+1y9PFdpGECv1giFKdnC8cBCsVdlnJZxGwLEpxTMCa5EVTo6CQeiasVOsYlVQeWt0
+2TUGB/Mzh6nfCPc5xsz6fuKzg8g5SxLv4o69qDJBvCPvp4SaK73kCiW5MWvTuImQ
+1nO6bwECgYEA7rXYJF1NSM1ZCCCwHMK7uos/1FPVGRHiP4OPyuxMUIQXMK2t1kXh
+SNE0W7dI1CC5x70Sc5dAJuhr1mJja+RdLtt11+6DpcDTAkeF/IZkrquY55tIgSM9
+DRxeVUPuQliiGqMvQCH5ig5chfZjNjsL6otu0QcGDdbi/Rdm...
+	at org.jooq.impl.Utils.translate(Utils.java:1287) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.DefaultExecuteContext.sqlException(DefaultExecuteContext.java:495) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.AbstractQuery.execute(AbstractQuery.java:326) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.UpdatableRecordImpl.storeInsert0(UpdatableRecordImpl.java:230) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.UpdatableRecordImpl.access$100(UpdatableRecordImpl.java:90) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.UpdatableRecordImpl$2.operate(UpdatableRecordImpl.java:201) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.RecordDelegate.operate(RecordDelegate.java:123) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.UpdatableRecordImpl.storeInsert(UpdatableRecordImpl.java:196) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.UpdatableRecordImpl.insert(UpdatableRecordImpl.java:144) ~[jooq-3.3.0.jar:na]
+	at io.cattle.platform.object.impl.JooqObjectManager$1.executeNoResult(JooqObjectManager.java:80) ~[cattle-framework-object-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.engine.idempotent.IdempotentExecutionNoReturn.execute(IdempotentExecutionNoReturn.java:7) ~[cattle-framework-engine-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.engine.idempotent.IdempotentExecutionNoReturn.execute(IdempotentExecutionNoReturn.java:3) ~[cattle-framework-engine-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.engine.idempotent.Idempotent.change(Idempotent.java:88) ~[cattle-framework-engine-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.object.impl.JooqObjectManager.insert(JooqObjectManager.java:77) ~[cattle-framework-object-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.object.impl.AbstractObjectManager.create(AbstractObjectManager.java:62) ~[cattle-framework-object-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.object.impl.AbstractObjectManager.create(AbstractObjectManager.java:72) ~[cattle-framework-object-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.core.dao.impl.DataDaoImpl$1.doWithLock(DataDaoImpl.java:53) ~[cattle-iaas-model-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.core.dao.impl.DataDaoImpl$1.doWithLock(DataDaoImpl.java:33) ~[cattle-iaas-model-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.AbstractLockManagerImpl$3.doWithLock(AbstractLockManagerImpl.java:40) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.LockManagerImpl.doLock(LockManagerImpl.java:33) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.AbstractLockManagerImpl.lock(AbstractLockManagerImpl.java:13) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.AbstractLockManagerImpl.lock(AbstractLockManagerImpl.java:37) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.core.dao.impl.DataDaoImpl.getOrCreate(DataDaoImpl.java:33) ~[cattle-iaas-model-0.5.0-SNAPSHOT.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_72]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_72]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_72]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_72]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99) ~[spring-tx-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:280) ~[spring-tx-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96) ~[spring-tx-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213) ~[spring-aop-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at com.sun.proxy.$Proxy48.getOrCreate(Unknown Source) ~[na:na]
+	at io.cattle.platform.host.service.HostApiRSAKeyProvider.getKeyPair(HostApiRSAKeyProvider.java:58) ~[cattle-host-api-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.host.service.HostApiRSAKeyProvider.getPublicKeys(HostApiRSAKeyProvider.java:114) ~[cattle-host-api-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.host.service.impl.HostApiServiceImpl.getPublicKeys(HostApiServiceImpl.java:103) ~[cattle-host-api-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.configitem.context.impl.HostApiKeyInfoFactory.getKeys(HostApiKeyInfoFactory.java:39) ~[cattle-config-item-server-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.configitem.context.impl.HostApiKeyInfoFactory.getContentHash(HostApiKeyInfoFactory.java:59) ~[cattle-config-item-server-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.configitem.server.model.impl.AbstractArchiveBasedConfigItem.getSourceRevision(AbstractArchiveBasedConfigItem.java:175) ~[cattle-config-item-server-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.configitem.server.impl.ConfigItemServerImpl$1.doWithLockNoResult(ConfigItemServerImpl.java:127) ~[cattle-config-item-server-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.LockCallbackNoReturn.doWithLock(LockCallbackNoReturn.java:7) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.LockCallbackNoReturn.doWithLock(LockCallbackNoReturn.java:3) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.AbstractLockManagerImpl$3.doWithLock(AbstractLockManagerImpl.java:40) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.LockManagerImpl.doLock(LockManagerImpl.java:33) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.AbstractLockManagerImpl.lock(AbstractLockManagerImpl.java:13) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.lock.impl.AbstractLockManagerImpl.lock(AbstractLockManagerImpl.java:37) ~[cattle-framework-lock-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.configitem.server.impl.ConfigItemServerImpl.syncSourceVersion(ConfigItemServerImpl.java:111) ~[cattle-config-item-server-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.configitem.server.impl.ConfigItemServerImpl.start(ConfigItemServerImpl.java:102) ~[cattle-config-item-server-0.5.0-SNAPSHOT.jar:na]
+	at io.cattle.platform.spring.web.StartupListener.contextInitialized(StartupListener.java:92) ~[cattle-framework-spring-module-0.5.0-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:800) ~[jetty-server-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:444) ~[jetty-servlet-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:791) ~[jetty-server-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:294) ~[jetty-servlet-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1349) ~[jetty-webapp-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1342) ~[jetty-webapp-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:741) ~[jetty-server-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:505) ~[jetty-webapp-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132) ~[jetty-util-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.server.Server.start(Server.java:387) ~[jetty-server-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114) ~[jetty-util-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61) ~[jetty-server-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:354) ~[jetty-server-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.2.11.v20150529.jar:9.2.11.v20150529]
+	at io.cattle.platform.launcher.jetty.Main.main(Main.java:146) ~[0e44936b6b56ae4372799b0f48e6e934/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_72]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_72]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_72]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_72]
+	at io.cattle.platform.launcher.Main.run(Main.java:188) [0e44936b6b56ae4372799b0f48e6e934/:na]
+	at io.cattle.platform.launcher.Main.main(Main.java:251) [0e44936b6b56ae4372799b0f48e6e934/:na]
+Caused by: java.sql.SQLIntegrityConstraintViolationException: (conn:12) Duplicate entry 'host.api.key' for key 'idx_data_name'
+Query is: insert into `data` (`name`, `visible`, `value`) values (?, ?, ?), parameters ['host.api.key',0,'-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAxgPI0wwnRoAqBm4kq/648CrC0JMHYod7CGs7VJuqI3XpI0nH
+Nl6MD+vACQOYoiqFfcdFTlCNgBD2HVZqlK4Ip7NUqbYsscpAkWrSNKtVsExDoyTM
+67iEEqtUSxCDfina6GdxTFZy7xlzbHC71/xGiZ3gs5fJZCheqCGsAuAnqpkWzK9m
+kfgS10BFraLN480mz0Bm6zzxtZiSt4FzncSy+3RDrrsOW3ZNSMWLKGh0byKyW1H3
+Dwfix/A7b1hYJSBrgzBC9yh26FHZ0n/naOY/UIRhbIjpeKiq8TuQQlyfd6NpNeum
+5B1mr0VUzCvmeXxL/LKpRwmClAiW2x0/cvgOiQIDAQABAoIBAAi80UNlz4RcAq64
+tL/NrEO1wVWyjTJ+87IACFTQDyKEMRLMbkDTDHdl4doL+XPbcDtH/CIL6iiG5xNN
+lUOlB879mexotGFugSmhhu/JySzPurLT3IKAyHwp6PzseD7skiMr8FsL3AO6seYM
+te8+i67GI4yNM7bqlJ2y6awRT9LGXWyh/1hHr0HzF4XM0SIqvoSYZ3tjJ6hbM1N6
+1y9PFdpGECv1giFKdnC8cBCsVdlnJZxGwLEpxTMCa5EVTo6CQeiasVOsYlVQeWt0
+2TUGB/Mzh6nfCPc5xsz6fuKzg8g5SxLv4o69qDJBvCPvp4SaK73kCiW5MWvTuImQ
+1nO6bwECgYEA7rXYJF1NSM1ZCCCwHMK7uos/1FPVGRHiP4OPyuxMUIQXMK2t1kXh
+SNE0W7dI1CC5x70Sc5dAJuhr1mJja+RdLtt11+6DpcDTAkeF/IZkrquY55tIgSM9
+DRxeVUPuQliiGqMvQCH5ig5chfZjNjsL6otu0QcGDdbi/Rdm...
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.get(ExceptionMapper.java:133) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.getException(ExceptionMapper.java:101) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.throwAndLogException(ExceptionMapper.java:77) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.MariaDbStatement.executeQueryEpilog(MariaDbStatement.java:224) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.MariaDbServerPreparedStatement.executeInternal(MariaDbServerPreparedStatement.java:411) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.MariaDbServerPreparedStatement.execute(MariaDbServerPreparedStatement.java:361) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.MariaDbServerPreparedStatement.executeUpdate(MariaDbServerPreparedStatement.java:350) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105) ~[commons-dbcp-1.4.jar:1.4]
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105) ~[commons-dbcp-1.4.jar:1.4]
+	at org.jooq.tools.jdbc.DefaultPreparedStatement.executeUpdate(DefaultPreparedStatement.java:88) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.AbstractStoreQuery.execute(AbstractStoreQuery.java:346) ~[jooq-3.3.0.jar:na]
+	at org.jooq.impl.AbstractQuery.execute(AbstractQuery.java:322) ~[jooq-3.3.0.jar:na]
+	... 73 common frames omitted
+Caused by: org.mariadb.jdbc.internal.util.dao.QueryException: Duplicate entry 'host.api.key' for key 'idx_data_name'
+Query is: insert into `data` (`name`, `visible`, `value`) values (?, ?, ?), parameters ['host.api.key',0,'-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAxgPI0wwnRoAqBm4kq/648CrC0JMHYod7CGs7VJuqI3XpI0nH
+Nl6MD+vACQOYoiqFfcdFTlCNgBD2HVZqlK4Ip7NUqbYsscpAkWrSNKtVsExDoyTM
+67iEEqtUSxCDfina6GdxTFZy7xlzbHC71/xGiZ3gs5fJZCheqCGsAuAnqpkWzK9m
+kfgS10BFraLN480mz0Bm6zzxtZiSt4FzncSy+3RDrrsOW3ZNSMWLKGh0byKyW1H3
+Dwfix/A7b1hYJSBrgzBC9yh26FHZ0n/naOY/UIRhbIjpeKiq8TuQQlyfd6NpNeum
+5B1mr0VUzCvmeXxL/LKpRwmClAiW2x0/cvgOiQIDAQABAoIBAAi80UNlz4RcAq64
+tL/NrEO1wVWyjTJ+87IACFTQDyKEMRLMbkDTDHdl4doL+XPbcDtH/CIL6iiG5xNN
+lUOlB879mexotGFugSmhhu/JySzPurLT3IKAyHwp6PzseD7skiMr8FsL3AO6seYM
+te8+i67GI4yNM7bqlJ2y6awRT9LGXWyh/1hHr0HzF4XM0SIqvoSYZ3tjJ6hbM1N6
+1y9PFdpGECv1giFKdnC8cBCsVdlnJZxGwLEpxTMCa5EVTo6CQeiasVOsYlVQeWt0
+2TUGB/Mzh6nfCPc5xsz6fuKzg8g5SxLv4o69qDJBvCPvp4SaK73kCiW5MWvTuImQ
+1nO6bwECgYEA7rXYJF1NSM1ZCCCwHMK7uos/1FPVGRHiP4OPyuxMUIQXMK2t1kXh
+SNE0W7dI1CC5x70Sc5dAJuhr1mJja+RdLtt11+6DpcDTAkeF/IZkrquY55tIgSM9
+DRxeVUPuQliiGqMvQCH5ig5chfZjNjsL6otu0QcGDdbi/Rdm...
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readErrorPacket(AbstractQueryProtocol.java:1115) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readPacket(AbstractQueryProtocol.java:1047) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:1002) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executePreparedQuery(AbstractQueryProtocol.java:588) ~[mariadb-java-client-1.5.8.jar:na]
+	at org.mariadb.jdbc.MariaDbServerPreparedStatement.executeInternal(MariaDbServerPreparedStatement.java:399) ~[mariadb-java-client-1.5.8.jar:na]
+	... 80 common frames omitted
+
+
+
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""\ End of creation """"""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""
+
