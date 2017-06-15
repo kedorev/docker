@@ -1,0 +1,10 @@
+#Indique la source du repo
+FROM httpd:latest
+
+#Equivalent a www dans la vagrant / 
+WORKDIR /usr/local/apache2/htdocs
+
+
+#Script execution
+COPY ./adminer.sh /usr/bin
+RUN bash -c "/usr/bin/adminer.sh"

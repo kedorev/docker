@@ -1,0 +1,14 @@
+#Indique la source du repo
+FROM httpd:latest
+
+#Equivalent a www dans la vagrant / 
+WORKDIR /usr/local/apache2/htdocs
+
+#permet d'ouvrir le port
+EXPOSE 80
+
+#Script execution
+# @TODO : add script
+COPY ./secu.sh /usr/bin
+RUN chmod 755 /usr/bin/secu.sh
+RUN bash -c "/usr/bin/secu.sh"

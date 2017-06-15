@@ -1,0 +1,47 @@
+version: '3'
+services:
+  web:
+    labels:
+      io.rancher.container.pull_image: always
+      io.rancher.container.network: 'true'
+    tty: true
+    ports:
+    - 4000:80
+    image: httpd
+    links:
+    - database:mysql
+    stdin_open: true
+  database:
+    labels:
+      io.rancher.container.pull_image: always
+      io.rancher.container.network: 'true'
+    tty: true
+    image: mysql
+    environment:
+    - MYSQL_ROOT_PASSWORD=firstPassWord
+    stdin_open: true
+  adminer:
+    build:
+      context: ./DockerfileAdminer
+    labels:
+      io.rancher.container.pull_image: always
+      io.rancher.container.network: 'true'
+    tty: true
+    image: httpd
+    volumes:
+     - "./adminer.sh:/adminer.sh"
+    ports:
+    - 4001:80
+    links:
+    - database
+    stdin_open: true
+  rancher_server:
+    image: rancher/server:stable
+    labels:
+      io.rancher.container.create_agent: 'true'
+      io.rancher.container.agent.role: environmentAdmin
+    ports:
+    - 9090:8080
+    restart: unless-stopped
+    environment:
+    - COMPOSE_HTTP_TIMEOUT=6000
