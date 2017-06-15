@@ -9,6 +9,7 @@ EXPOSE 80
 
 #Script execution
 # @TODO : add script
-#ENTRYPOINT ["/bin/bash","./install_wp.sh"]
-ENTRYPOINT ["/bin/echo", "Hello"]  
+COPY ./install_wp.sh /usr/bin
+RUN bash -c "/usr/bin/install_wp.sh"
+#ENTRYPOINT ["/bin/echo", "Hello"]  
 #CMD ./install_wp.sh
